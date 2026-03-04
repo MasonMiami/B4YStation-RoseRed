@@ -20,6 +20,7 @@
 2026-03-04:
   rkz, zephyr:
   - server: autogenerates python path
+<<<<<<< HEAD
 2026-03-06:
   mrmanlikesbt:
   - code_imp: Poll configs now use constructors instead of manually setting the config's
@@ -299,3 +300,5 @@
   - admin: Added more vampire antag admin tools and configuration.
   r1ks-iwnl:
   - bugfix: Fixed blood splatters spawning from a mob contained in an object.
+=======
+>>>>>>> e4986e90501 (Automatic changelog compile [ci skip])
