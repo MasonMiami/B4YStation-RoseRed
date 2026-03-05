@@ -345,10 +345,15 @@
 /datum/emote/proc/select_message_type(mob/user, msg, intentional)
 	// Basically, we don't care that the others can use datum variables, because they're never going to change.
 	. = msg
+<<<<<<< HEAD
 	if(!isliving(user))
 		return .
 	var/mob/living/living_user = user
 
+=======
+	if(!muzzle_ignore && user.is_muzzled() && (emote_type & EMOTE_AUDIBLE))
+		return "makes a [pick("strong ", "weak ", "")]noise."
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 	if(HAS_MIND_TRAIT(user, TRAIT_MIMING) && message_mime)
 		. = message_mime
 	if(isalienadult(user) && message_alien)

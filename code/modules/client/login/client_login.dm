@@ -421,9 +421,13 @@
 /client/proc/init_admin_if_present()
 	if(holder)
 		holder.associate(src)
+<<<<<<< HEAD
 		var/memo_message = get_message_output("memo")
 		if(memo_message)
 			to_chat(src, memo_message)
+=======
+		to_chat(src, get_message_output("memo"))
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 		admin_greet()
 
 /client/proc/set_client_age_from_db()
