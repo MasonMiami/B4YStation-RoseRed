@@ -102,5 +102,8 @@
 
 /// From base of area/Exited(): (area/left, direction)
 #define COMSIG_MOVABLE_EXITED_AREA "movable_exited_area"
+<<<<<<< HEAD
 ///from base of /atom/movable/point_at: (atom/A, obj/effect/temp_visual/point/point)
 #define COMSIG_MOVABLE_POINTED "movable_pointed"
+=======
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))

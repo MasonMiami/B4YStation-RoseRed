@@ -245,9 +245,16 @@
 	QDEL_NULL(helpers)
 	qdel(src)
 
+<<<<<<< HEAD
 /mob/living/simple_animal/hostile/retaliate/nymph/send_speech(message_raw, message_range, obj/source, bubble_type, list/spans, datum/language/message_language, list/message_mods, forced)
 	. = ..()
 	emote("chitter")
+=======
+/mob/living/simple_animal/hostile/retaliate/nymph/can_speak(allow_mimes = FALSE)
+	. = ..()
+	if(!.)
+		emote("chitter")
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 
 /datum/action/nymph/evolve
 	name = "Evolve"
