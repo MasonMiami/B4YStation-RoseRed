@@ -21,6 +21,7 @@
   rkz, zephyr:
   - server: autogenerates python path
 <<<<<<< HEAD
+<<<<<<< HEAD
 2026-03-06:
   mrmanlikesbt:
   - code_imp: Poll configs now use constructors instead of manually setting the config's
@@ -28,6 +29,9 @@
   - bugfix: Fixed several ghost polls not working
   - bugfix: Fixed xenomorphs and spiders not having the vent overlay when spawning
       inside of a vent
+=======
+2026-03-06:
+>>>>>>> 0a97ab15458 (Automatic changelog compile [ci skip])
   mrmanlikesbt, rkz, Ghommie, SmArtKar, Pickle-Coding, grungussuss, LemonInTheDark, Floofies, vinylspiders, san7890:
   - code_imp: 'Added an easy define for reference tracking: REFERENCE_TRACKING_STANDARD'
   - admin: Removed the SMES deletion admin message. Player deconstruction still sends
@@ -79,6 +83,7 @@
   - bugfix: Fixed some nullrod variants not having icons on the radial menu variant
       select
   - bugfix: Fixed the ninja plant explosive always failing
+<<<<<<< HEAD
 2026-03-08:
   DrDuckedGoose:
   - tweak: Improved species height code
@@ -302,3 +307,5 @@
   - bugfix: Fixed blood splatters spawning from a mob contained in an object.
 =======
 >>>>>>> e4986e90501 (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 0a97ab15458 (Automatic changelog compile [ci skip])
