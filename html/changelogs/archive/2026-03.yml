@@ -29,9 +29,12 @@
   - bugfix: Fixed several ghost polls not working
   - bugfix: Fixed xenomorphs and spiders not having the vent overlay when spawning
       inside of a vent
+<<<<<<< HEAD
 =======
 2026-03-06:
 >>>>>>> 0a97ab15458 (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 65779fffc6a (Automatic changelog compile [ci skip])
   mrmanlikesbt, rkz, Ghommie, SmArtKar, Pickle-Coding, grungussuss, LemonInTheDark, Floofies, vinylspiders, san7890:
   - code_imp: 'Added an easy define for reference tracking: REFERENCE_TRACKING_STANDARD'
   - admin: Removed the SMES deletion admin message. Player deconstruction still sends
