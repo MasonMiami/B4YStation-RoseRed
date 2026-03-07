@@ -53,7 +53,13 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
@@ -98,9 +104,18 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "kp" = (
+<<<<<<< HEAD
 <<<<<<< HEAD
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -118,6 +133,14 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden,
 >>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "ll" = (
@@ -130,12 +153,23 @@
 /turf/open/floor/plating,
 /area/shuttle/exploration)
 "oH" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 /obj/structure/wall_closet/emergency/directional/north,
 /obj/effect/turf_decal/stripes,
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/wall_closet/emergency/directional/north,
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -188,7 +222,13 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "qX" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
@@ -251,12 +291,24 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "tq" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "ts" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
@@ -311,7 +363,13 @@
 /turf/open/floor/plating,
 /area/shuttle/exploration)
 "DM" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/door/airlock/shuttle/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -337,7 +395,13 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/external/glass,
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
@@ -355,18 +419,34 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "HO" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 /obj/machinery/power/shieldwallgen/atmos{
 	id = "HolofieldExplo";
 	anchored = 1
 	},
+=======
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/shieldwallgen/atmos{
+	id = "HolofieldExplo";
+	anchored = 1
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/door/poddoor/shutters{
 	id = "exploshutters"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "In" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -457,13 +537,25 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "PA" = (
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "Qb" = (
+<<<<<<< HEAD
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/structure/cable/yellow,
 /obj/machinery/power/shieldwallgen/atmos{
 	dir = 1;
@@ -508,7 +600,13 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/titanium,
@@ -544,6 +642,21 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
+<<<<<<< HEAD
+=======
+/turf/open/floor/mineral/titanium,
+/area/shuttle/exploration)
+"ZX" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 
