@@ -87,6 +87,7 @@
       select
   - bugfix: Fixed the ninja plant explosive always failing
 <<<<<<< HEAD
+<<<<<<< HEAD
 2026-03-08:
   DrDuckedGoose:
   - tweak: Improved species height code
@@ -312,3 +313,8 @@
 >>>>>>> e4986e90501 (Automatic changelog compile [ci skip])
 =======
 >>>>>>> 0a97ab15458 (Automatic changelog compile [ci skip])
+=======
+2026-03-08:
+  Isaacnml:
+  - bugfix: Exploration blackbox objectives can be tracked by GPS/Hardsuits once again
+>>>>>>> a8539235f98 (Automatic changelog compile [ci skip])
