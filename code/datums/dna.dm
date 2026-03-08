@@ -521,6 +521,7 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 	var/desired_size = heights[features["body_size"]]
 	if(desired_size == current_body_size && !force)
 		return
+<<<<<<< HEAD
 	SEND_SIGNAL(holder, COMSIG_CARBON_HEIGHT_UPDATE, desired_size)
 
 /datum/dna/proc/update_species(_species)
@@ -530,6 +531,9 @@ GLOBAL_LIST_INIT(total_uf_len_by_block, populate_total_uf_len_by_block())
 	if(species?.height_icon_state)
 		height_displacement = holder?.AddComponent(/datum/component/height_filter, 'icons/effects/64x64.dmi', species.height_icon_state)
 	update_body_size(TRUE)
+=======
+	SEND_SIGNAL(src, COMSIG_CARBON_HEIGHT_UPDATE, desired_size)
+>>>>>>> 9c29087fe4d (Overhaul Height Effects Code (#14132))
 
 /////////////////////////// DNA MOB-PROCS //////////////////////
 /mob/proc/set_species(datum/species/mrace, icon_update = 1)
