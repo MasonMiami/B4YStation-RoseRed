@@ -106,6 +106,7 @@
       you
   - balance: Ranged swarmers (red ones) now shoot less lethal ammo instead of just
       lasers
+<<<<<<< HEAD
   PatienceStPim:
   - bugfix: Lizards and psyphozas can get their mutations unlocked again
   - bugfix: Scanners not working after injecting enzymes in genetics
@@ -327,3 +328,8 @@
   Isaacnml:
   - bugfix: Exploration blackbox objectives can be tracked by GPS/Hardsuits once again
 >>>>>>> a8539235f98 (Automatic changelog compile [ci skip])
+=======
+  Tsar-Salat:
+  - refactor: species damage mods are now limb-based
+  - bugfix: damage mods work again, IPCs ignore stamina damage
+>>>>>>> 94d18289e5c (Automatic changelog compile [ci skip])
