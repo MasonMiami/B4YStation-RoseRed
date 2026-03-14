@@ -126,6 +126,7 @@
   - balance: Cult doors no longer paralyze you upon being thrown, now they knock you
       down
   - bugfix: Cult doors will no longer throw you away just for looking at them
+<<<<<<< HEAD
 2026-03-15:
   ? r1ks-iwnl, GoldenAlpharex, cacogen, Superlagg, neopythagorean, SuperNovaa41, StrangeWeirdKitten,
     Kocma-san, GreytideSkye, vinylspiders, norsvenska, 00-Steven, MrMelbert
@@ -341,3 +342,5 @@
   - refactor: species damage mods are now limb-based
   - bugfix: damage mods work again, IPCs ignore stamina damage
 >>>>>>> 94d18289e5c (Automatic changelog compile [ci skip])
+=======
+>>>>>>> c9cf53da19c (Automatic changelog compile [ci skip])
