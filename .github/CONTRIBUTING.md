@@ -112,7 +112,7 @@ Any pull-request that does not adequately complete the provided template may be 
  - The changelog should include a short summary of the changes made. If your pull request includes things made by other people, you should list everybody who contributed, including yourself, after the :cl: tag.
  - Ports should indicate any original code that they have added for the port. This includes highlighting any mass-edit statements done via regex, and any bee specific content that had to be modified to accomodate the changes.
 
-If a pull-request requires updates to the wiki, these changes should be made on your user account page (For example: https://wiki.beestation13.com/view/User:PowerfulBacon), so that the original page can be updated on merge.
+If a pull-request requires updates to the wiki, these changes should be made on your user account page (For example: https://wiki.beestation13.com/view/User:MasonMiami), so that the original page can be updated on merge.
 
 ## 8. Banned Content
 

@@ -8,43 +8,43 @@
 
 /_maps @BeeStation/beestation-mapping
 
-# crossedfall
+# MasonMiami
 
-.dockerignore @crossedfall
-.github @crossedfall
-/code/_compile_options.dm @crossedfall
-/code/modules/tgs @crossedfall
-dependencies.sh @crossedfall
-Dockerfile @crossedfall
-/SQL @crossedfall
-/tools @crossedfall
-/config @crossedfall
+.dockerignore @MasonMiami
+.github @MasonMiami
+/code/_compile_options.dm @MasonMiami
+/code/modules/tgs @MasonMiami
+dependencies.sh @MasonMiami
+Dockerfile @MasonMiami
+/SQL @MasonMiami
+/tools @MasonMiami
+/config @MasonMiami
 
-# crossedfall (explicitly disowned)
+# MasonMiami (explicitly disowned)
 
 /tools/UpdatePaths/Scripts/
 /tools/maplint/lints/
 
-# powerfulbacon
+# MasonMiami
 
-/code/game/machinery/shuttle @powerfulbacon
-/code/modules/shuttle/super_cruise @powerfulbacon
-/code/modules/shuttle/shuttle_creation @powerfulbacon
+/code/game/machinery/shuttle @MasonMiami
+/code/modules/shuttle/super_cruise @MasonMiami
+/code/modules/shuttle/shuttle_creation @MasonMiami
 
-# itsmeow
+# MasonMiami
 
-/tools/MapTileAggregator.py @itsmeow
-/code/modules/admin/player_panel.dm @itsmeow
-/code/modules/tgui_input/ @itsmeow
-/tgui/packages/tgui/interfaces/PlayerPanel.js @itsmeow
-/code/modules/multiz/ @itsmeow
-/code/modules/client/login/ @itsmeow
-/code/modules/client/preferences/ @itsmeow
+/tools/MapTileAggregator.py @MasonMiami
+/code/modules/admin/player_panel.dm @MasonMiami
+/code/modules/tgui_input/ @MasonMiami
+/tgui/packages/tgui/interfaces/PlayerPanel.js @MasonMiami
+/code/modules/multiz/ @MasonMiami
+/code/modules/client/login/ @MasonMiami
+/code/modules/client/preferences/ @MasonMiami
 
-# itsmeow (explicitly disowned)
+# MasonMiami (explicitly disowned)
 
 /code/modules/client/preferences/entries/
 
-# mrmanlikesbt
+# MasonMiami
 
-/code/controllers/subsystem/dynamic @mrmanlikesbt
+/code/controllers/subsystem/dynamic @MasonMiami
