@@ -127,6 +127,9 @@
       down
   - bugfix: Cult doors will no longer throw you away just for looking at them
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33351edf021 (Automatic changelog compile [ci skip])
 2026-03-15:
   ? r1ks-iwnl, GoldenAlpharex, cacogen, Superlagg, neopythagorean, SuperNovaa41, StrangeWeirdKitten,
     Kocma-san, GreytideSkye, vinylspiders, norsvenska, 00-Steven, MrMelbert
@@ -145,6 +148,7 @@
         than using the pen that's currently attached to it. Congratulations!
     - bugfix: Hitting cancel when renaming a paper now actually cancels the operation.
     - code_imp: Added support for preventing a pen from being removed from a clipboard.
+<<<<<<< HEAD
 2026-03-16:
   DrDuckedGoose:
   - bugfix: Fix Height Maps
@@ -344,3 +348,5 @@
 >>>>>>> 94d18289e5c (Automatic changelog compile [ci skip])
 =======
 >>>>>>> c9cf53da19c (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 33351edf021 (Automatic changelog compile [ci skip])
