@@ -26,8 +26,8 @@ jobs:
         run: python tools/changelog/ss13_genchangelog.py html/changelogs
       - name: Commit
         run: |
-          git config --local user.email "56381746+ss13-beebot@users.noreply.github.com"
-          git config --local user.name "ss13-beebot"
+          git config --local user.email os.getenv("GIT_EMAIL")
+          git config --local user.name os.getenv("GIT_NAME")
           git pull origin master
           git add html/changelogs
           git commit -m "Automatic changelog compile [ci skip]" -a || true
