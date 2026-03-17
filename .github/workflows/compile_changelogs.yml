@@ -36,6 +36,6 @@ jobs:
       - name: Push
         uses: CasperWA/push-protected@v2
         with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }} Use this instead if you have unprotected branches
-          token: ${{ secrets.CL_TOKEN }}
-          branch: master
+           token: ${{ secrets.GITHUB_TOKEN }} Use this instead if you have unprotected branches
+           #token: ${{ secrets.CL_TOKEN }}
+           branch: master
