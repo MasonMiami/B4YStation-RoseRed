@@ -27,8 +27,10 @@ jobs:
 
     - name: Commit and Push
       run: |
-        git config user.name os.getenv("GIT_NAME")
-        git config user.email os.getenv("GIT_EMAIL")
+        GIT_EMAIL: ${{ env.GIT_EMAIL }}
+        GIT_NAME: ${{ env.GIT_NAME }}
+        git config --local user.email "GIT_EMAIL"
+        git config --local user.name "GIT_NAME"
         git add *
         git commit -m 'Update TGS DMAPI'
         git push -f -u origin tgs-dmapi-update
