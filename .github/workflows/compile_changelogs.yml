@@ -26,14 +26,14 @@ jobs:
         run: python tools/changelog/ss13_genchangelog.py html/changelogs
       - name: Commit
         run: |
-          git config --local user.email os.getenv("GIT_EMAIL")
-          git config --local user.name os.getenv("GIT_NAME")
+          git config --local user.email "${{ env.GIT_EMAIL }}"
+          git config --local user.name "${{ env.GIT_NAME }}"
           git pull origin master
           git add html/changelogs
           git commit -m "Automatic changelog compile [ci skip]" -a || true
       - name: Push
         uses: CasperWA/push-protected@v2
         with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }} Use this instead if you have unprotected branches
-          token: ${{ secrets.CL_TOKEN }}
-          branch: master
+           token: ${{ secrets.GITHUB_TOKEN }} Use this instead if you have unprotected branches
+           #token: ${{ secrets.CL_TOKEN }}
+           branch: master
