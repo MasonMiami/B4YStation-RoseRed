@@ -305,7 +305,10 @@
 		TRAIT_BEAST_EMPATHY,
 	)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 

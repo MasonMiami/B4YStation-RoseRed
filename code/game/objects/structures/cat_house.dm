@@ -8,8 +8,11 @@
 	///cat residing in this house
 	var/mob/living/resident_cat
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/// The timer details
 	var/exit_timer_id
+=======
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
@@ -20,6 +23,7 @@
 /obj/structure/cat_house/proc/enter_home(datum/source, mob/living/attacker)
 	SIGNAL_HANDLER
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	if(isnull(resident_cat) && iscat(attacker))
 		attacker.forceMove(src)
@@ -54,6 +58,8 @@
 	if(isnull(resident_cat))
 		resident_cat = mover
 =======
+=======
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	if(isnull(resident_cat) && istype(attacker, /mob/living/basic/pet/cat))
 		attacker.forceMove(src)
 		return
@@ -65,6 +71,9 @@
 	if(!istype(mover, /mob/living/basic/pet/cat))
 		return
 	resident_cat = mover
+<<<<<<< HEAD
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
+=======
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	update_appearance(UPDATE_OVERLAYS)
 
@@ -73,6 +82,7 @@
 	if(mover != resident_cat)
 		return
 	resident_cat = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 	if(exit_timer_id)
 		deltimer(exit_timer_id)
@@ -88,6 +98,10 @@
 		exit_timer_id = null
 	return ..()
 
+=======
+	update_appearance(UPDATE_OVERLAYS)
+
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 	update_appearance(UPDATE_OVERLAYS)
 

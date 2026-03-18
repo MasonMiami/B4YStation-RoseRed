@@ -105,8 +105,11 @@
 
 /datum/emote/living/deathgasp/run_emote(mob/living/user, params, type_override, intentional)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if(!is_type_in_typecache(user, mob_type_allowed_typecache))
 		return
+=======
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	var/custom_message = user.death_message

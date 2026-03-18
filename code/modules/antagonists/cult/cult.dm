@@ -316,7 +316,11 @@
 		for(var/datum/mind/mind as anything in members)
 			if(mind.current)
 <<<<<<< HEAD
+<<<<<<< HEAD
 				SEND_SOUND(mind.current, 'sound/ambience/antag/bloodcult_eyes.ogg')
+=======
+				SEND_SOUND(mind.current, 'sound/hallucinations/i_see_you2.ogg')
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 				SEND_SOUND(mind.current, 'sound/hallucinations/i_see_you2.ogg')
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
@@ -330,7 +334,11 @@
 		for(var/datum/mind/mind as anything in members)
 			if(mind.current)
 <<<<<<< HEAD
+<<<<<<< HEAD
 				SEND_SOUND(mind.current, 'sound/ambience/antag/bloodcult_halos.ogg')
+=======
+				SEND_SOUND(mind.current, 'sound/hallucinations/im_here1.ogg')
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 				SEND_SOUND(mind.current, 'sound/hallucinations/im_here1.ogg')
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))

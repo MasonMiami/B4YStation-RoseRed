@@ -59,7 +59,10 @@
 	SIGNAL_HANDLER
 	UnregisterSignal(source, COMSIG_ATOM_MOUSE_ENTERED)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	remove_from_viewers(source)
+=======
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
@@ -97,8 +100,12 @@
 		display_menu(friend)
 		return
 <<<<<<< HEAD
+<<<<<<< HEAD
 	var/mob/living/owner = parent
 	if(isliving(mouse_hovered) && mouse_hovered.loc != owner.loc)
+=======
+	if(isliving(mouse_hovered))
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 =======
 	if(isliving(mouse_hovered))
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))

@@ -399,6 +399,9 @@
 	if(speak_emote && speak_emote.len)
 		verb_say = pick(speak_emote)
 	. = ..()
+<<<<<<< HEAD
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
+=======
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
 /mob/living/simple_animal/proc/set_varspeed(var_value)
