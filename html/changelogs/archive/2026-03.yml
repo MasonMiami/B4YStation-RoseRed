@@ -179,6 +179,9 @@
   - tweak: Dynamic no longer sends a storyteller vote if there is only one storyteller
       to vote for.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9a2a79952e9 (Automatic changelog compile [ci skip])
   rkz, tralezab, san7890, Ben10Omintrix, Vekter, vinylspiders, SmArtKar:
   - rscadd: Mining/Explo headsets now allow you to make callouts via pointing. You
       can use them to communicate with fellow jobbers!
@@ -197,6 +200,7 @@
   - rscadd: Added a new traitor item, "feral cat grenades". For 5 TC, you too can
       throw a grenade at someone and make five cats maul them to death.
   - bugfix: fixes a hard del with thrown items
+<<<<<<< HEAD
 2026-03-19:
   Isaacnml:
   - bugfix: The syndicate has fixed their chameleon technology for engineering models
@@ -370,3 +374,5 @@
 >>>>>>> 21ac0cc3713 (Automatic changelog compile [ci skip])
 =======
 >>>>>>> 8ee08e8642f (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 9a2a79952e9 (Automatic changelog compile [ci skip])
