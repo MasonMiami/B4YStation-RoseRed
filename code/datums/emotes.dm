@@ -10,6 +10,7 @@
  *
  */
 /datum/emote
+<<<<<<< HEAD
 	abstract_type = /datum/emote
 
 	/// What calls the emote.
@@ -40,6 +41,23 @@
 	var/message_animal_or_basic = ""
 	/// Message with %t at the end to allow adding params to the message, like for mobs doing an emote relatively to something else.
 	var/message_param = ""
+=======
+	var/key = "" //What calls the emote
+	var/key_third_person = "" //This will also call the emote
+	var/name = "" // Needed for more user-friendly emote names, so emotes with keys like "aflap" will show as "flap angry". Defaulted to key.
+	var/message = "" //Message displayed when emote is used
+	var/message_mime = "" //Message displayed if the user is a mime
+	var/message_alien = "" //Message displayed if the user is a grown alien
+	var/message_larva = "" //Message displayed if the user is an alien larva
+	var/message_robot = "" //Message displayed if the user is a robot
+	var/message_AI = "" //Message displayed if the user is an AI
+	var/message_monkey = "" //Message displayed if the user is a monkey
+	var/message_ipc = "" // Message to display if the user is an IPC
+	var/message_insect = "" //Message to display if the user is a moth, apid or flyperson
+	/// Message to display if the user is a simple_animal or basic mob.
+	var/message_animal_or_basic = ""
+	var/message_param = "" //Message to display if a param was given
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	/// Whether the emote is visible and/or audible bitflag
 	var/emote_type = NONE
 	/// Checks if the mob can use its hands before performing the emote.

@@ -21224,10 +21224,173 @@
 /obj/structure/fluff/hedge/opaque{
 	pixel_y = 5
 	},
+<<<<<<< HEAD
 /turf/open/floor/iron/smooth_half,
 /area/station/service/hydroponics)
 "dZL" = (
 /obj/effect/turf_decal/siding/white{
+=======
+/obj/effect/turf_decal/siding/dark/end{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/hallway/primary/fore)
+"qUf" = (
+/obj/effect/landmark/start/roboticist,
+/turf/open/floor/iron/dark,
+/area/science/robotics/lab)
+"qUj" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/solar/starboard/aft)
+"qUr" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Xenobiology Privacy Shutters";
+	id = "xenbio"
+	},
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/item/flashlight/lamp,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/hallway/primary/aft)
+"qUt" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/effect/turf_decal/trimline/white/warning{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/white/warning{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/medical/chemistry)
+"qUw" = (
+/turf/closed/wall/r_wall,
+/area/maintenance/solars/starboard/fore)
+"qUD" = (
+/obj/machinery/light/small/directional/south,
+/obj/effect/turf_decal/trimline/black/filled/line,
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/open/floor/iron/smooth,
+/area/hallway/upper/primary/port)
+"qUE" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "librc";
+	name = "Library Counter Shutters"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/library/lounge)
+"qUH" = (
+/obj/effect/turf_decal/edges/borderfloor{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/floor/iron/techmaint,
+/area/medical/morgue)
+"qUL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/iron/techmaint,
+/area/engine/engine_room)
+"qUR" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/obj/structure/table,
+/obj/item/candydispenser/engineering{
+	pixel_y = 11
+	},
+/turf/open/floor/iron,
+/area/engine/storage_shared)
+"qUT" = (
+/obj/effect/turf_decal/plaque{
+	icon_state = "L13"
+	},
+/turf/open/floor/glass/reinforced,
+/area/hallway/primary/starboard)
+"qVc" = (
+/obj/structure/bed/dogbed/runtime,
+/mob/living/basic/pet/cat/runtime,
+/obj/machinery/light/small/directional/south,
+/obj/structure/sign/poster/official/random/directional/south,
+/obj/item/toy/cattoy,
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "pawprint";
+	pixel_y = 6;
+	pixel_x = 9;
+	name = "bloody pawprint";
+	desc = "Seems Runtime's been busy.";
+	paint_colour = "#981122"
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "pawprint";
+	pixel_y = 12;
+	pixel_x = 1;
+	name = "bloody pawprint";
+	desc = "Seems Runtime's been busy.";
+	paint_colour = "#981122"
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "pawprint";
+	pixel_y = 18;
+	pixel_x = 7;
+	name = "bloody pawprint";
+	desc = "Seems Runtime's been busy.";
+	paint_colour = "#981122"
+	},
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "pawprint";
+	pixel_y = 2;
+	pixel_x = 3;
+	name = "bloody pawprint";
+	desc = "Seems Runtime's been busy.";
+	paint_colour = "#981122"
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/crew_quarters/heads/cmo)
+"qVf" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/green/hidden{
+	dir = 4
+	},
+/obj/effect/landmark/navigate_destination,
+/obj/machinery/meter,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/engine/atmos)
+"qVh" = (
+/obj/effect/turf_decal/trimline/dark_blue/warning_offset{
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	dir = 8
 	},
 /obj/structure/cable/yellow,
