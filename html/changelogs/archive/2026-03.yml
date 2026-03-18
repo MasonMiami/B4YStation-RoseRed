@@ -154,10 +154,13 @@
   DrDuckedGoose:
   - bugfix: Fix Height Maps
 2026-03-18:
+<<<<<<< HEAD
   Isaacnml:
   - spellcheck: Poison is spelled correctly upon failling the poison directive
   PatienceStPim:
   - rscadd: Cargo now gets bounties for mutations.
+=======
+>>>>>>> 8ee08e8642f (Automatic changelog compile [ci skip])
   mrmanlikesbt:
   - bugfix: Fixed the roundend message sometimes not being sent to the discord OOC
       channel
@@ -167,6 +170,7 @@
       dragon's body.
   - tweak: Dynamic no longer sends a storyteller vote if there is only one storyteller
       to vote for.
+<<<<<<< HEAD
   rkz, tralezab, san7890, Ben10Omintrix, Vekter, vinylspiders, SmArtKar:
   - rscadd: Mining/Explo headsets now allow you to make callouts via pointing. You
       can use them to communicate with fellow jobbers!
@@ -356,3 +360,5 @@
   DrDuckedGoose:
   - bugfix: Fix Height Maps
 >>>>>>> 21ac0cc3713 (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 8ee08e8642f (Automatic changelog compile [ci skip])
