@@ -336,10 +336,14 @@
 /datum/dynamic_ruleset/midround/ghost/space_dragon/generate_ruleset_body(mob/dead/observer/chosen_mob)
 	var/mob/living/simple_animal/hostile/space_dragon/dragon_body = new(pick(spawn_locations))
 <<<<<<< HEAD
+<<<<<<< HEAD
 	dragon_body.key = chosen_mob.key
 =======
 	dragon_body.key = chosen_mob
 >>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+	dragon_body.key = chosen_mob.key
+>>>>>>> 42736a60f77 (Automated vote "fixes" & anonymous voting (#14103))
 
 	playsound(dragon_body, 'sound/magic/ethereal_exit.ogg', 50, TRUE, -1)
 	priority_announce("It appears a lifeform with magical traces is approaching [station_name()], please stand-by.", "Lifesign Alert")
