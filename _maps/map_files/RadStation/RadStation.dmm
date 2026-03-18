@@ -5412,6 +5412,504 @@
 /obj/structure/chair/fancy/sofa/old/right{
 	dir = 8
 	},
+<<<<<<< HEAD
+=======
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron,
+/area/hallway/primary/port)
+"fZx" = (
+/mob/living/basic/pet/cat/_proc{
+	name = "Captain Snugglebottoms III Esquire"
+	},
+/obj/structure/bed/dogbed,
+/turf/open/floor/wood,
+/area/crew_quarters/dorms)
+"fZQ" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/library)
+"fZS" = (
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/maintenance/port/central)
+"gab" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "ailobbyshutter"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"gau" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/directional{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/library)
+"gaA" = (
+/obj/machinery/door/airlock/command{
+	name = "Head of Personnel's Office";
+	req_access_txt = "57"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	id_tag = "bridge"
+	},
+/turf/open/floor/iron/dark,
+/area/bridge/meeting_room)
+"gaI" = (
+/obj/effect/spawner/random/maintenance/eight,
+/obj/structure/rack,
+/turf/open/floor/iron/white,
+/area/maintenance/port/aft)
+"gaJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/library)
+"gaL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/engine/engine_room)
+"gaM" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/turf/open/floor/iron,
+/area/maintenance/department/security)
+"gaV" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{
+	alpha = 180;
+	color = "#DE3A3A"
+	},
+/turf/open/floor/iron,
+/area/security/brig)
+"gaY" = (
+/obj/machinery/button/door{
+	id = "Cabin_1";
+	name = "Cabin 1 Privacy Lock";
+	normaldoorcontrol = 1;
+	pixel_x = 1;
+	pixel_y = -32;
+	specialfunctions = 4
+	},
+/turf/open/floor/wood,
+/area/crew_quarters/dorms)
+"gbe" = (
+/obj/machinery/newscaster{
+	pixel_x = 32;
+	pixel_y = 1
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/firealarm/directional/north,
+/obj/machinery/fax/eng,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/dark,
+/area/engine/engineering)
+"gbg" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
+"gbh" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/clipboard{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/paper/monitorkey{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/folder/yellow,
+/obj/item/stamp/chief_engineer{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/toy/figure/ce{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/book/manual/wiki/sopcommand,
+/turf/open/floor/carpet/royalblue,
+/area/crew_quarters/heads/chief)
+"gbB" = (
+/obj/effect/turf_decal/edges/techfloor,
+/turf/open/floor/iron/tech,
+/area/science/xenobiology)
+"gbE" = (
+/obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted{
+	alpha = 180
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron,
+/area/crew_quarters/heads/captain)
+"gbF" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored/carbon_input{
+	dir = 1
+	},
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
+"gbS" = (
+/obj/machinery/button/door{
+	id = "Cabin_2";
+	name = "Cabin 2 Privacy Lock";
+	normaldoorcontrol = 1;
+	pixel_x = 32;
+	pixel_y = 1;
+	specialfunctions = 4
+	},
+/obj/effect/landmark/start/assistant,
+/obj/machinery/light_switch{
+	pixel_x = 23
+	},
+/obj/structure/bed{
+	dir = 8
+	},
+/obj/item/bedsheet/dorms,
+/turf/open/floor/carpet/olive,
+/area/crew_quarters/dorms)
+"gci" = (
+/turf/closed/wall/r_wall,
+/area/science/mixing)
+"gcO" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/turf/open/floor/iron/tech,
+/area/engine/engine_room)
+"gdm" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/techmaint,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"gdw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/engine/atmos)
+"gdB" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engine/engine_room)
+"gdU" = (
+/obj/effect/turf_decal/delivery,
+/obj/item/paper/fluff/jobs/mining/smelter_notice,
+/obj/machinery/computer/shuttle_flight/mining{
+	req_access = null
+	},
+/obj/item/radio/intercom{
+	pixel_x = 2;
+	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/quartermaster/miningdock)
+"geq" = (
+/obj/machinery/meter,
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/engine/atmos)
+"geu" = (
+/obj/effect/turf_decal/guideline/guideline_tri/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/white/corner,
+/area/science/research)
+"gez" = (
+/obj/structure/chair/fancy/bench/pew/right{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating/dark,
+/turf/open/floor/iron/dark,
+/area/chapel/main)
+"geH" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/firealarm/directional/west,
+/obj/effect/turf_decal/guideline/guideline_edge/blue{
+	dir = 8
+	},
+/obj/structure/closet/crate/freezer/blood,
+/turf/open/floor/iron,
+/area/medical/surgery)
+"geZ" = (
+/obj/effect/turf_decal/box/corners{
+	dir = 8;
+	pixel_x = 15;
+	pixel_y = 16
+	},
+/obj/machinery/xenoarchaeology_machine/calibrator/tutorial,
+/turf/open/floor/engine,
+/area/science/explab)
+"gfd" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "MailConv"
+	},
+/obj/effect/turf_decal/stripes{
+	pixel_y = -2
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/iron/dark,
+/area/quartermaster/office)
+"gff" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
+"gfn" = (
+/obj/structure/closet,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating,
+/area/maintenance/port/central)
+"gfq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "geneticsdesk";
+	name = "Genetics Desk Shutters"
+	},
+/obj/machinery/door/firedoor,
+/obj/item/storage/box/monkeycubes{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/pill_bottle/mannitol{
+	pixel_x = 11;
+	pixel_y = 5
+	},
+/obj/item/storage/pill_bottle/mutadone{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/stack/cable_coil,
+/obj/machinery/door/window/westright{
+	dir = 1;
+	name = "Genetics Desk";
+	req_access_txt = "9"
+	},
+/obj/item/folder/white,
+/turf/open/floor/iron,
+/area/medical/genetics)
+"gfC" = (
+/turf/open/floor/catwalk_floor/iron,
+/area/science/robotics)
+"gfD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/guideline/guideline_edge/purple,
+/turf/open/floor/iron/white/side{
+	dir = 1
+	},
+/area/science/research)
+"gfH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{
+	alpha = 180;
+	color = "#DE3A3A"
+	},
+/turf/open/floor/engine,
+/area/engine/atmos)
+"gfJ" = (
+/obj/structure/chair/fancy/corp{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/turf/open/floor/carpet/blue,
+/area/crew_quarters/heads/hos)
+"gfP" = (
+/mob/living/basic/cockroach,
+/turf/open/floor/iron/dark,
+/area/maintenance/department/science)
+"gfV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/hallway/primary/central)
+"gfZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	broken = 1
+	},
+/area/maintenance/port/central)
+"ggo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/glass{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/medical)
+"ggz" = (
+/obj/effect/decal/cleanable/food/flour,
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = -9;
+	pixel_y = 44
+	},
+/turf/open/floor/iron/white,
+/area/crew_quarters/kitchen)
+"ggJ" = (
+/turf/closed/wall,
+/area/science/lab)
+"ghc" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/sepia,
+/area/quartermaster/storage)
+"ghe" = (
+/obj/machinery/computer/message_monitor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/circuit/telecomms/mainframe{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/tcommsat/computer)
+"ghm" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/tech,
+/area/science/xenobiology)
+"ght" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue/fourcorners/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/turf/open/floor/iron/white,
+/area/medical/sleeper)
+"ghx" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/light{
+	bulb_colour = "#22bfa2";
+	bulb_vacuum_colour = "#22bfa2";
+	dir = 4;
+	nightshift_light_color = "#22bfa2"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/engine/engine_room)
+"ghB" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/guideline/guideline_tri/yellow,
+/turf/open/floor/iron,
+/area/engine/engineering)
+"ghC" = (
+/turf/closed/wall,
+/area/medical/exam_room)
+"ghK" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/hallway/primary/central)
+"ghY" = (
+/obj/structure/cable/orange{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "satwindow";
+	name = "Window Shutters"
+	},
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable/orange{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/service)
+"gis" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/obj/structure/railing/corner,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/hallway/primary/central)
+"giz" = (
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/carpet/green,
 /area/station/hallway/secondary/exit/departure_lounge)
@@ -24543,8 +25041,67 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
+<<<<<<< HEAD
 /area/station/engineering/main)
 "jrJ" = (
+=======
+/area/hallway/primary/fore)
+"mtA" = (
+/obj/structure/sign/warning/nosmoking/circle,
+/turf/closed/wall,
+/area/engine/storage)
+"mtD" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/maintenance/two,
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 32
+	},
+/turf/open/floor/plating,
+/area/quartermaster/warehouse)
+"mtI" = (
+/turf/open/floor/holofloor/plating,
+/area/holodeck/prison)
+"mtO" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/iron/tech,
+/area/engine/engine_room)
+"mtY" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -25;
+	pixel_y = 1
+	},
+/obj/item/paper_bin{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/obj/item/folder/blue{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/obj/item/stamp/cmo{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/obj/item/holosign_creator/medical,
+/mob/living/basic/pet/cat/runtime{
+	density = 0;
+	dir = 8;
+	pixel_x = -4;
+	pixel_y = 9
+	},
+/turf/open/floor/iron/white,
+/area/crew_quarters/heads/cmo)
+"mui" = (
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
