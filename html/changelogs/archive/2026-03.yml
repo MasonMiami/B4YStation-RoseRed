@@ -155,12 +155,17 @@
   - bugfix: Fix Height Maps
 2026-03-18:
 <<<<<<< HEAD
+<<<<<<< HEAD
   Isaacnml:
   - spellcheck: Poison is spelled correctly upon failling the poison directive
   PatienceStPim:
   - rscadd: Cargo now gets bounties for mutations.
 =======
 >>>>>>> 8ee08e8642f (Automatic changelog compile [ci skip])
+=======
+  Isaacnml:
+  - spellcheck: Poison is spelled correctly upon failling the poison directive
+>>>>>>> b0d3569fe7d (Automatic changelog compile [ci skip])
   mrmanlikesbt:
   - bugfix: Fixed the roundend message sometimes not being sent to the discord OOC
       channel
