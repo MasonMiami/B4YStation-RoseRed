@@ -206,6 +206,7 @@
   - bugfix: The syndicate has fixed their chameleon technology for engineering models
   WhiskeyMarten:
   - bugfix: Replaced improper marker beacons on Cardinal with the correct variant.
+<<<<<<< HEAD
 2026-03-20:
   Isaac:
   - bugfix: Hangover trait should  stop putting you into crit anymore roundstart
@@ -376,3 +377,5 @@
 >>>>>>> 8ee08e8642f (Automatic changelog compile [ci skip])
 =======
 >>>>>>> 9a2a79952e9 (Automatic changelog compile [ci skip])
+=======
+>>>>>>> d488a01a5ae (Automatic changelog compile [ci skip])
