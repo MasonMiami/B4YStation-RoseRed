@@ -24,8 +24,8 @@ jobs:
           pip install -r tools/changelog/requirements.txt
       - name: Make CL
         env:
-          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} Use this instead if you have unprotected branches
-          GITHUB_TOKEN: ${{ secrets.CL_TOKEN }}
-          GIT_EMAIL: ${{ env.GIT_EMAIL }}
-          GIT_NAME: ${{ env.GIT_NAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} Use this instead if you have unprotected branches
+          #GITHUB_TOKEN: ${{ secrets.CL_TOKEN }}
+          GIT_EMAIL: "264440027+MasonMiami@users.noreply.github.com"
+          GIT_NAME: "MasonMiami"
         run: python tools/changelog/generate_cl.py
