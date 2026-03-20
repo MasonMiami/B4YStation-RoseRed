@@ -207,6 +207,9 @@
   WhiskeyMarten:
   - bugfix: Replaced improper marker beacons on Cardinal with the correct variant.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 581e63c8ebb (Automatic changelog compile [ci skip])
 2026-03-20:
   Isaac:
   - bugfix: Hangover trait should  stop putting you into crit anymore roundstart
@@ -222,6 +225,7 @@
       should be placed at
   - code_imp: Light replacer afterattack is more readable and accepts hitting light
       fixtures directly
+<<<<<<< HEAD
   - bugfix: You can buckle onto objects if there's a directional window on the same
       tile again
 2026-03-22:
@@ -379,3 +383,5 @@
 >>>>>>> 9a2a79952e9 (Automatic changelog compile [ci skip])
 =======
 >>>>>>> d488a01a5ae (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 581e63c8ebb (Automatic changelog compile [ci skip])
