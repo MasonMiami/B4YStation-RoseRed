@@ -176,7 +176,11 @@
 
 	if(!equipment_disabled && LAZYLEN(occupants)) //prevent spamming this message with back-to-back EMPs
 		to_chat(occupants, span_danger("Error -- Connection to equipment control unit has been lost."))
+<<<<<<< HEAD
 	addtimer(CALLBACK(src, TYPE_PROC_REF(/obj/vehicle/sealed/mecha, restore_equipment)), 6 SECONDS, TIMER_UNIQUE | TIMER_OVERRIDE)
+=======
+	addtimer(CALLBACK(src, TYPE_PROC_REF(/obj/vehicle/sealed/mecha, restore_equipment)), 3 SECONDS, TIMER_UNIQUE | TIMER_OVERRIDE)
+>>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 	equipment_disabled = TRUE
 	set_mouse_pointer()
 
@@ -384,6 +388,7 @@
 	. = ..()
 	if(user.combat_mode)
 		return
+<<<<<<< HEAD
 	if(atom_integrity >= max_integrity)
 		to_chat(user, span_warning("[src] is at full integrity!"))
 		return TRUE
@@ -392,12 +397,23 @@
 			break
 		if(!W.use_tool(src, user, 2 SECONDS, volume=30, amount=1)) // Time to wait two seconds per repair
 			break
+=======
+	. = TRUE
+	if(atom_integrity < max_integrity)
+		if(!W.use_tool(src, user, 0, volume=50, amount=1))
+			return
+>>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 		user.visible_message(span_notice("[user] repairs some damage to [name]."), span_notice("You repair some damage to [src]."))
 		atom_integrity = min(max_integrity, atom_integrity + 10)
 		diag_hud_set_mechhealth() // Apparently, this fixed a small issue where mechs wouldn't update their HUD health when being welded
 		if(atom_integrity == max_integrity)
 			to_chat(user, span_notice("It looks to be fully repaired now."))
+<<<<<<< HEAD
 	return TRUE
+=======
+		return
+	to_chat(user, span_warning("[src] is at full integrity!"))
+>>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 
 /obj/vehicle/sealed/mecha/proc/full_repair(charge_cell)
 	atom_integrity = max_integrity
