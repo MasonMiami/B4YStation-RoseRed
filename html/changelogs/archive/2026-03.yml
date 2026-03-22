@@ -309,6 +309,7 @@
     - refactor: flick_overlay is an atom proc
     - balance: mech wire panels can no longer be accessed while the mech is occupied
     - balance: mech equipment attachment delays only apply to occupied mechs
+<<<<<<< HEAD
 2026-03-26:
   Rukofamicom:
   - bugfix: honey now works as intended again healing a moderately high amount of
@@ -390,3 +391,5 @@
   - bugfix: You can buckle onto objects if there's a directional window on the same
       tile again
 >>>>>>> 4648463c960 (Automatic changelog compile [ci skip])
+=======
+>>>>>>> c7bccfc6658 (Automatic changelog compile [ci skip])
