@@ -14,13 +14,13 @@ CONTRIBUTING
 8. Banned Content
 
 ## 1. Introduction
-Hello and welcome to BeeStation's contributing page. You are presumably here because you are interested in contributing - thank you! Everyone is free to contribute to this project as long as they follow the simple guidelines and specifications below; at BeeStation, we strive to maintain code stability and maintainability, and to do that, we need all pull requests to meet our standards. It's in everyone's best interests - including yours!
+Hello and welcome to Rose Red's contributing page. You are presumably here because you are interested in contributing - thank you! Everyone is free to contribute to this project as long as they follow the simple guidelines and specifications below; at Rose Red, we strive to maintain code stability and maintainability, and to do that, we need all pull requests to meet our standards. It's in everyone's best interests - including yours!
 
 First things first, we want to make it clear how you can contribute (if you've never contributed before), as well as the kinds of powers the team has over your additions, to avoid any unpleasant surprises if your pull request is closed for a reason you didn't foresee.
 
 ## 2. Getting Started - Contributing for Dummies
 
-BeeStation doesn't have any kind of design document outlining planned changes; we instead allow freedom for contributors to suggest and create their ideas for the game. That doesn't mean we aren't determined to squash bugs, which unfortunately pop up a lot due to the deep complexity of the game.
+Rose Red doesn't have any kind of design document outlining planned changes; we instead allow freedom for contributors to suggest and create their ideas for the game. That doesn't mean we aren't determined to squash bugs, which unfortunately pop up a lot due to the deep complexity of the game.
 
 If you want to contribute the first thing you'll need to do is set up a decent development environment. The default tools for working with BYOND simply aren't sufficient, and the next section explains what we use. We also have a few guides to help you get started with git and making a pull request:
 
@@ -52,7 +52,7 @@ In addition to VSCode, several other tools exist to make your life easier.
 * Database - MariaDB: [Setup guide](https://wiki.beestation13.com/view/Working_with_the_database#Database_Setup)
 
 ## 4. Code Standards
-There are a variety of ways you can write valid DM code. However, BeeStation is not as lenient. Maintaining good code standards is important for performance and readability reasons. You can find details about our code standards [here](https://github.com/BeeStation/BeeStation-Hornet/wiki/Code-Standards).
+There are a variety of ways you can write valid DM code. However, Rose Red is not as lenient. Maintaining good code standards is important for performance and readability reasons. You can find details about our code standards [here](https://github.com/TheShopOfLongmont/B4YStation-RoseRed/wiki/Code-Standards).
 
 They are mostly the same as /tg/station's code standards, though we are not quite as strict about enforcing them. A notable example is that we don't require our code to be thoroughly documented for autodoc.
 
@@ -63,17 +63,17 @@ Failure to meet these standards can result in your pull request being closed. Th
 Sprites from CEV-Eris and sprites clearly inspired by their art style are generally not permitted unless you recolor them using a tolerable color palette.
 
 ### HippieStation
-HippieStation's code standards are much more lax than BeeStation. Their code typically does not meet our standards. Therefore, you should not attempt to port code from HippieStation unless you have the experience and knowledge necessary to rewrite the code to our standards. Maintainers will not hold your hand for this, instead they will simply close the pull request.
+HippieStation's code standards are much more lax than Rose Red. Their code typically does not meet our standards. Therefore, you should not attempt to port code from HippieStation unless you have the experience and knowledge necessary to rewrite the code to our standards. Maintainers will not hold your hand for this, instead they will simply close the pull request.
 
 ### Goonstation
 **Attempting to use Goonstation code without using the steps outlined in this section is grounds for an immediate repoban.**
 
 Goonstation's code license is not compatible with [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html). Therefore, there are very specific steps that need to be taken in order to use Goonstation code:
-1. Get approval from a BeeStation Maintainer, explaining specifically what you want to port.
+1. Get approval from a Rose Red Maintainer, explaining specifically what you want to port.
 2. Get permission from **EVERY** code author that was involved with writing the code you wish to port.
 3. Open the pull request. It must have "[GOON]" at the start of the pull request title. It must say "CONTAINS CODE FROM GOONSTATION" at the top of the pull request description. List **ALL** of the code authors somewhere in your pull request description.
 4. Have **EVERY** code author from step two comment on your pull request giving you permission to use the code. The specifics of how they should word their comment can vary on a case-by-case basis.
-5. Wait for final approval from a BeeStation Maintainer. This will involve us reaching out to a Goonstation representative for their sign-off.
+5. Wait for final approval from a Rose Red Maintainer. This will involve us reaching out to a Goonstation representative for their sign-off.
 
 Failing to correctly follow any step will result in the pull request being closed. If done maliciously, it will also result in a repoban.
 

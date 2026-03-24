@@ -1,7 +1,7 @@
-#### These are the current config options for the official BeeStation server. If you plan to host your own fork of our code you are heavily encouraged to review and update these files for your needs.
+#### These are the current config options for the official Rose Red server. If you plan to host your own fork of our code you are heavily encouraged to review and update these files for your needs.
 
 ## Topics Documentation
-Beestation uses a heavily modified topic system originally from Aurorastation, which uses JSON objects for requests to and responses from the server.
+Rose Red uses a heavily modified topic system originally from Aurorastation, which uses JSON objects for requests to and responses from the server.
 
 ### Configuration
 Topic config is managed by the **comms.txt** config file. Topic configuration consists of four types of config entry.
