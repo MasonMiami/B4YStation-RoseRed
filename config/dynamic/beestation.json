@@ -1,5 +1,5 @@
 {
-	"Name": "Beestation",
+	"Name": "Rose Red",
 	"Description": "A classic experience, roundstart antagonists are the same type and midrounds are random and ignore the station's state.",
 	"Dynamic": {
 		"roundstart_divergence_percent_lower": 1,

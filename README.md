@@ -1,12 +1,12 @@
-<h1 align="center">BeeStation 13 Codebase</h1>
+<h1 align="center">Bestation Codebase being converted to Rose Red with Yogstation features</h1>
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://user-images.githubusercontent.com/8171642/50290880-ffef5500-043a-11e9-8270-a2e5b697c86c.png) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
-[![Build Status](https://github.com/BeeStation/BeeStation-Hornet/workflows/Run%20tests/badge.svg)](https://github.com/BeeStation/BeeStation-Hornet/actions?query=workflow%3A%22Run+tests%22)
+[![Build Status](https://github.com/TheShopOfLongmont/B4YStation-RoseRed/workflows/Run%20tests/badge.svg)](https://github.com/TheShopOfLongmont/B4YStation-RoseRed/actions?query=workflow%3A%22Run+tests%22)
 ![Open Issues](https://isitmaintained.com/badge/open/BeeStation/BeeStation-Hornet.svg)
 
 **Website:** http://beestation13.com
-**Code:** https://github.com/beestation/beestation-hornet
+**Code:** https://github.com/TheShopOfLongmont/B4YStation-RoseRed
 **Wiki:** https://wiki.beestation13.com/view/Main_Page
 
 
@@ -19,7 +19,7 @@ Follow this: https://wiki.beestation13.com/view/Guide_to_git
 Clone the repository using `git clone`.
 
 Option 2: Download the source code as a zip by clicking the ZIP button in the
-code tab of https://github.com/beestation/beestation-hornet
+code tab of https://github.com/TheShopOfLongmont/B4YStation-RoseRed
 (note: this will use a lot of bandwidth if you wish to update and is a lot of
 hassle if you want to make any changes at all, so it's not recommended.)
 
@@ -33,14 +33,14 @@ docker run -d -p <your port>:1337 -v /path/to/your/config:/beestation/config -v 
 
 **You can no longer compile the codebase simply through Dream Maker**.
 
-**Building Beestation in Dream Maker directly is now deprecated and might produce errors**, such as `'tgui.bundle.js': cannot find file`.
+**Building Rose Red in Dream Maker directly is now deprecated and might produce errors**, such as `'tgui.bundle.js': cannot find file`.
 
 ### Building with VSCode (Preferred)
 
 **[How to compile in VSCode and other build options](tools/build/README.md).**
 
 ### Building without VSCode
-You will find `BUILD.bat` in the root folder of BeeStation, double-clicking it will initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile (particularly the first time). Unix users can directly call ./tools/build/build.
+You will find `BUILD.bat` in the root folder of Rose Red, double-clicking it will initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile (particularly the first time). Unix users can directly call ./tools/build/build.
 
 If you see any errors or warnings, something has gone wrong - possibly a corrupt
 download or the files extracted wrong. If problems persist, ask for assistance
@@ -124,7 +124,7 @@ Anytime you want to make changes to a map it's imperative you use the [Map Mergi
 
 ## AWAY MISSIONS
 
-BeeStation supports loading away missions however they are disabled by default.
+Rose Red supports loading away missions however they are disabled by default.
 
 Map files for away missions are located in the _maps/RandomZLevels directory. Each away mission includes it's own code definitions located in /code/modules/awaymissions/mission_code. These files must be included and compiled with the server beforehand otherwise the server will crash upon trying to load away missions that lack their code.
 
