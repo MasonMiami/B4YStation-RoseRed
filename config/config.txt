@@ -316,7 +316,7 @@ GITHUBURL https://www.github.com/beestation/beestation-hornet
 #ISSUE_LABEL Ingame Issue Report
 
 ## Donation URL
-DONATEURL https://www.patreon.com/user?u=10639001
+DONATEURL https://www.garysinisefoundation.org/donate
 
 ## Discord Invite
 DISCORDURL https://discord.gg/ss13
