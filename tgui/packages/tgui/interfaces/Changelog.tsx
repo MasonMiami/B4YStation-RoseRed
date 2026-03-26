@@ -94,9 +94,9 @@ const Header = (props: { dropdown: any }, _context) => {
       </p>
       <p>
         {'Current organization members can be found '}
-        <a href="https://github.com/orgs/BeeStation/people">here</a>
+        <a href="https://github.com/orgs/TheShopOfLongmont/people">here</a>
         {', recent GitHub contributors can be found '}
-        <a href="https://github.com/BeeStation/BeeStation-Hornet/graphs/contributors">
+        <a href="https://github.com/TheShopOfLongmont/B4YStation-RoseRed/graphs/contributors">
           here
         </a>
         .
@@ -112,7 +112,7 @@ const Header = (props: { dropdown: any }, _context) => {
         Learn more at our <a href="https://wiki.beestation13.com/">Wiki</a>
         <br />
         Check out our{' '}
-        <a href="https://github.com/BeeStation/BeeStation-Hornet">Source</a>
+        <a href="https://github.com/TheShopOfLongmont/B4YStation-RoseRed">Source</a>
         <br />
         Join our Discord <a href="https://discord.gg/ss13">Here!</a>.
       </p>
