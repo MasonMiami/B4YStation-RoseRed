@@ -320,10 +320,14 @@
       longer send you into glycemic shock from a single honeycomb, but you can still
       expect to get fat if you eat a few in a short span of time.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 457a9196f2b (Automatic changelog compile [ci skip])
   TsunamiAnt:
   - balance: Made the NPS slightly worse against armor. Finally.
   - refactor: Armor penetration calculations are now based on a multiplicative model.
       Nothing should have changed from this.
+<<<<<<< HEAD
 2026-03-30:
   Tsar-Salat:
   - bugfix: fixes some instances of mobs not handling fed food correctly
@@ -399,3 +403,5 @@
 >>>>>>> c7bccfc6658 (Automatic changelog compile [ci skip])
 =======
 >>>>>>> eaad8fe6274 (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 457a9196f2b (Automatic changelog compile [ci skip])
