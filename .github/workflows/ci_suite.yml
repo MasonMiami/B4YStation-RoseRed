@@ -65,6 +65,8 @@ jobs:
         with:
           path: tools/icon_cutter/cache
           key: ${{ runner.os }}-cutter-${{ hashFiles('dependencies.sh') }}
+      - name: Create Python Alias
+        run: sudo ln -sf /usr/bin/python3 /usr/bin/python
       - name: Python setup
         uses: actions/setup-python@v4
         with:
