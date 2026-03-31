@@ -346,6 +346,7 @@
   - code_imp: Moved CONDUCT_1 to a CONDUCTS_ELECTRICITY obj_flag
   - code_imp: TESLA_IGNORE_1 has been replaced with TRAIT_TESLA_SHOCKIMMUNE
 <<<<<<< HEAD
+<<<<<<< HEAD
 2026-03-31:
   TsunamiAnt, Absolucy, TheCarnalest, mrmanlikesbt:
   - rscadd: 'Added new vampire abilities and mechanics:'
@@ -415,3 +416,8 @@
 >>>>>>> 457a9196f2b (Automatic changelog compile [ci skip])
 =======
 >>>>>>> 86b727365d3 (Automatic changelog compile [ci skip])
+=======
+2026-03-31:
+  r1ks-iwnl:
+  - bugfix: Fixed blood splatters spawning from a mob contained in an object.
+>>>>>>> 18cd223db30 (Automatic changelog compile [ci skip])
