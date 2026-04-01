@@ -14,8 +14,12 @@
 	var/static/datum/universal_icon/moth_head
 =======
 	var/datum/universal_icon/moth_head = uni_icon('icons/mob/human/species/moth/bodyparts.dmi', "moth_head", dir = SOUTH)
+<<<<<<< HEAD
 	moth_head.blend_icon(uni_icon('icons/mob/human/species/moth/eyes.dmi', "eyes", dir = SOUTH), ICON_OVERLAY)
 >>>>>>> 33d4e6a9baf (Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye preference. (#14234))
+=======
+	moth_head.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes", dir = SOUTH), ICON_OVERLAY)
+>>>>>>> 2dac8bf4362 (Revert "Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye …" (#14249))
 
 	if (isnull(moth_head))
 		moth_head = uni_icon('icons/mob/human/species/moth/bodyparts.dmi', "moth_head")
@@ -58,6 +62,7 @@
 		moth_body = uni_icon('icons/effects/effects.dmi', "nothing")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		for (var/obj/item/bodypart/body_part as anything in body_parts)
 			var/limb_id = initial(body_part.limb_id)
 			var/body_zone = initial(body_part.body_zone)
@@ -66,6 +71,9 @@
 =======
 	moth_body.blend_icon(uni_icon('icons/mob/human/species/moth/eyes.dmi', "eyes", dir = SOUTH), ICON_OVERLAY)
 >>>>>>> 33d4e6a9baf (Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye preference. (#14234))
+=======
+	moth_body.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes", dir = SOUTH), ICON_OVERLAY)
+>>>>>>> 2dac8bf4362 (Revert "Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye …" (#14249))
 
 		moth_body.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes_l"), ICON_OVERLAY)
 		moth_body.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes_r"), ICON_OVERLAY)
@@ -109,18 +117,3 @@
 /datum/preference/choiced/moth_wings/apply_to_human(mob/living/carbon/human/target, value)
 	target.dna.features["moth_wings"] = value
 
-/datum/preference/choiced/moth_eyes
-	db_key = "feature_moth_eyes"
-	preference_type = PREFERENCE_CHARACTER
-	category = PREFERENCE_CATEGORY_SECONDARY_FEATURES
-	main_feature_name = "Eye Type"
-	relevant_mutant_bodypart = "moth_eyes"
-
-/datum/preference/choiced/moth_eyes/init_possible_values()
-	return list("Default", "Domestic")
-
-/datum/preference/choiced/moth_eyes/apply_to_human(mob/living/carbon/human/target, value)
-	target.dna.features["moth_eyes"] = value
-
-/datum/preference/choiced/moth_eyes/create_default_value()
-	return "Default"

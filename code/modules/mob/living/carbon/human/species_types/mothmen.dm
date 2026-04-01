@@ -11,8 +11,7 @@
 	id = SPECIES_MOTH
 	species_traits = list(
 		LIPS,
-		HAS_MARKINGS,
-		MUTCOLORS,
+		HAS_MARKINGS
 	)
 	inherent_traits = list(
 		TRAIT_TACKLING_WINGED_ATTACKER
@@ -25,8 +24,11 @@
 		"moth_markings" = SPRITE_ACCESSORY_NONE,
 =======
 		"moth_markings" = "None",
+<<<<<<< HEAD
 		"moth_eyes" = "Default",
 >>>>>>> 33d4e6a9baf (Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye preference. (#14234))
+=======
+>>>>>>> 2dac8bf4362 (Revert "Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye …" (#14249))
 		"body_size" = "Normal"
 	)
 	attack_verb = "slash"
@@ -61,12 +63,6 @@
 	return ..()
 
 /datum/species/moth/on_species_gain(mob/living/carbon/human/human_who_gained_species, datum/species/old_species, pref_load)
-	if(human_who_gained_species.dna?.features["moth_eyes"] == "Domestic")
-		mutanteyes = /obj/item/organ/eyes/moth/domestic
-	else
-		mutanteyes = /obj/item/organ/eyes/moth
-	if(!pref_load)
-		human_who_gained_species.dna?.features["mcolor"] = "#f4d697"
 	. = ..()
 	RegisterSignal(human_who_gained_species, COMSIG_MOB_APPLY_DAMAGE_MODIFIERS, PROC_REF(damage_weakness))
 
@@ -251,7 +247,3 @@
 	)
 
 	return to_add
-
-/datum/species/moth/prepare_human_for_preview(mob/living/carbon/human/human)
-	human.dna.features["mcolor"] = "#f4d697"
-	human.update_body(TRUE)
