@@ -4,13 +4,19 @@
   - rscadd: moth bodyparts use new greyscale sprites
   - rscadd: adds new moth eye option, and makes it a preference
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8ee49703014 (Automatic changelog compile [ci skip])
 2026-04-02:
   Isaac:
   - balance: Mech now has a do_after per fixing attempt, requiring 2 seconds per welding
   - bugfix: Mech equipment is once again disabled for 6 seconds when hit with an EMP
   - balance: Techshells cost reduced to 0.6 at 100% efficiency
   - code_imp: Removed an extra initialize pill bottles had
+<<<<<<< HEAD
   nre_player, Racc-Off:
   - bugfix: Fixes turret's description
 =======
 >>>>>>> bc0245543cf (Automatic changelog compile [ci skip])
+=======
+>>>>>>> 8ee49703014 (Automatic changelog compile [ci skip])
