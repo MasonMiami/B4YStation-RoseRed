@@ -14,9 +14,14 @@
   - balance: Techshells cost reduced to 0.6 at 100% efficiency
   - code_imp: Removed an extra initialize pill bottles had
 <<<<<<< HEAD
+<<<<<<< HEAD
   nre_player, Racc-Off:
   - bugfix: Fixes turret's description
 =======
 >>>>>>> bc0245543cf (Automatic changelog compile [ci skip])
 =======
 >>>>>>> 8ee49703014 (Automatic changelog compile [ci skip])
+=======
+  nre_player, Racc-Off:
+  - bugfix: Fixes turret's description
+>>>>>>> 83c83e9de48 (Automatic changelog compile [ci skip])
