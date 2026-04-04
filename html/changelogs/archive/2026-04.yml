@@ -17,6 +17,7 @@
 <<<<<<< HEAD
   nre_player, Racc-Off:
   - bugfix: Fixes turret's description
+<<<<<<< HEAD
 =======
 >>>>>>> bc0245543cf (Automatic changelog compile [ci skip])
 =======
@@ -25,3 +26,12 @@
   nre_player, Racc-Off:
   - bugfix: Fixes turret's description
 >>>>>>> 83c83e9de48 (Automatic changelog compile [ci skip])
+=======
+2026-04-04:
+  Isaac:
+  - bugfix: Most magic protection has been removed from common sources, while keeping
+      holy ones
+  - bugfix: Fixes timestop stopping you inside even if you were protected against
+      magic
+  - balance: Heretic Spells moved to holy magic protection
+>>>>>>> a7c206440d9 (Automatic changelog compile [ci skip])
