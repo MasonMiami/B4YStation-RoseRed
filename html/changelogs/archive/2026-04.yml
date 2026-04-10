@@ -119,4 +119,12 @@
   - bugfix: Fix lasso runtime
   - bugfix: Hovering over things on the same tile no longer closes the pet command
       menu
+<<<<<<< HEAD
 >>>>>>> df6aa7331d0 (Automatic changelog compile [ci skip])
+=======
+2026-04-10:
+  mrmanlikesbt, TiviPlus, LemonInTheDark, SyncIt21, MSO:
+  - code_imp: Added a new VISUALIZE_LIGHT_UPDATES define to... I'm sure you can figure
+      it out.
+  - code_imp: Lighting code has been optimized and is now faster
+>>>>>>> 32638bfe337 (Automatic changelog compile [ci skip])
