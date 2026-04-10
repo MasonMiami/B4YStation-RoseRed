@@ -72,19 +72,23 @@
 	display_name = "wig"
 	path = /obj/item/clothing/head/wig
 	description = "Something to cover up your shining dome with. Can change its hair style and hair color."
-	cost = 4000
+	cost = 0
 
 /datum/gear/hat/wig/natural
 	display_name = "natural wig"
 	path = /obj/item/clothing/head/wig/natural
 	description = "Something to cover up your shining dome with. Can change its hair style but adapts to your natural hair color."
-	cost = 2000
+	cost = 0
 
 //SOFT CAPS
 
 /datum/gear/hat/soft
 	subtype_path = /datum/gear/hat/soft
-	cost = 1500
+	cost = 0
+
+/datum/gear/hat/soft
+	display_name = "cap, white"
+	path = /obj/item/clothing/head/soft
 
 /datum/gear/hat/soft/red
 	display_name = "cap, red"
@@ -118,16 +122,12 @@
 	display_name = "cap, black"
 	path = /obj/item/clothing/head/soft/black
 
-/datum/gear/hat/soft/black
-	display_name = "cap, black"
-	path = /obj/item/clothing/head/soft
-
 //BEANIES
 
 /datum/gear/hat/beanie
 	display_name = "beanie, white"
 	path = /obj/item/clothing/head/beanie
-	cost = 1500
+	cost = 0
 
 /datum/gear/hat/beanie/black
 	display_name = "beanie, black"
