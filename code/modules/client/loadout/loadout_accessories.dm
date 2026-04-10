@@ -7,7 +7,7 @@
 
 /datum/gear/accessory/scarf
 	subtype_path = /datum/gear/accessory/scarf
-	cost = 1000
+	cost = 0
 
 /datum/gear/accessory/scarf/black
 	display_name = "scarf, black"
@@ -48,43 +48,43 @@
 /datum/gear/accessory/scarf/zebra
 	display_name = "scarf, zebra"
 	path = /obj/item/clothing/neck/scarf/zebra
-	cost = 1200
+	cost = 0
 
 /datum/gear/accessory/scarf/stripedred
 	display_name = "scarf, striped red"
 	path = /obj/item/clothing/neck/stripedredscarf
-	cost = 1200
+	cost = 0
 
 /datum/gear/accessory/scarf/stripedblue
 	display_name = "scarf, striped blue"
 	path = /obj/item/clothing/neck/stripedbluescarf
-	cost = 1200
+	cost = 0
 
 /datum/gear/accessory/scarf/stripedgreen
 	display_name = "scarf, striped green"
 	path = /obj/item/clothing/neck/stripedgreenscarf
-	cost = 1200
+	cost = 0
 
 //armbands
 /datum/gear/accessory/armband_red
 	display_name = "armband, red"
 	path = /obj/item/clothing/accessory/armband
-	cost = 1000
+	cost = 0
 
 /datum/gear/accessory/armband_blu
 	display_name = "armband, blue"
 	path = /obj/item/clothing/accessory/armband/blue
-	cost = 1000
+	cost = 0
 
 /datum/gear/accessory/armband_grn
 	display_name = "armband, green"
 	path = /obj/item/clothing/accessory/armband/green
-	cost = 1000
+	cost = 0
 
 //ties
 /datum/gear/accessory/tie
 	subtype_path = /datum/gear/accessory/tie
-	cost = 1500
+	cost = 0
 
 /datum/gear/accessory/tie/blue
 	display_name = "tie, blue"
@@ -107,22 +107,22 @@
 /datum/gear/accessory/petcollar
 	display_name = "pet collar"
 	path = /obj/item/clothing/neck/petcollar
-	cost = 20000
+	cost = 0
 
 /datum/gear/accessory/necklace
 	display_name = "dope necklace"
 	path = /obj/item/clothing/neck/necklace/dope
-	cost = 25000
+	cost = 0
 
 /datum/gear/accessory/oldnecklace
 	display_name = "necklace, gold"
 	path = /obj/item/clothing/neck/necklace/dope/cross
-	cost = 25000
+	cost = 0
 
 /datum/gear/accessory/headphones
 	display_name = "headphones"
 	path = /obj/item/clothing/ears/headphones
-	cost = 2000
+	cost = 0
 
 //GLASSES
 
@@ -130,19 +130,19 @@
 	display_name = "eyepatch"
 	slot = ITEM_SLOT_EYES
 	path = /obj/item/clothing/glasses/eyepatch
-	cost = 1200
+	cost = 0
 
 /datum/gear/accessory/monocle
 	display_name = "monocle"
 	slot = ITEM_SLOT_EYES
 	path = /obj/item/clothing/glasses/monocle
-	cost = 1200
+	cost = 0
 
 /datum/gear/accessory/glasses
 	display_name = "prescription glasses"
 	slot = ITEM_SLOT_EYES
 	path = /obj/item/clothing/glasses/regular
-	cost = 3000
+	cost = 0
 
 /datum/gear/accessory/glasses/jamjar
 	display_name = "jam jar glasses"
@@ -185,7 +185,7 @@
 /datum/gear/accessory/bandana
 	slot = ITEM_SLOT_MASK
 	subtype_path = /datum/gear/accessory/bandana
-	cost = 1500
+	cost = 0
 
 /datum/gear/accessory/bandana/red
 	display_name = "red bandana"
@@ -210,13 +210,13 @@
 /datum/gear/accessory/bandana/skull
 	display_name = "skull bandana"
 	path = /obj/item/clothing/mask/bandana/skull/black
-	cost = 2000
+	cost = 0
 
 //LIPSTICK
 
 /datum/gear/accessory/cosmetics
 	subtype_path = /datum/gear/accessory/cosmetics
-	cost = 1200
+	cost = 0
 
 /datum/gear/accessory/cosmetics/lipstick
 	display_name = "lipstick, red"
@@ -237,13 +237,13 @@
 /datum/gear/accessory/cosmetics/lipstick/random
 	display_name = "lipstick, random color"
 	path = /obj/item/lipstick/random
-	cost = 1400
+	cost = 0
 
 //Cloaks
 
 /datum/gear/accessory/cloak
 	subtype_path = /datum/gear/accessory/cloak
-	cost = 10000
+	cost = 0
 
 /datum/gear/accessory/cloak/blackbishop
 	display_name = "black bishop's cloak"
@@ -254,7 +254,7 @@
 
 /datum/gear/accessory/backpack
 	subtype_path = /datum/gear/accessory/backpack
-	cost = 2000
+	cost = 0
 
 /datum/gear/accessory/backpack/engineer_borg_bag
 	display_name = "engineering cyborg bag"

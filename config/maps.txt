@@ -16,10 +16,10 @@ endmap
 
 #Active Rotation
 
-map corgstation
+#map corgstation
 	minplayers 15
 	votable
-endmap
+#endmap
 
 map boxstation
 	maxplayers 60
@@ -41,32 +41,32 @@ map kilostation
 	votable
 endmap
 
-map flandstation
+#map flandstation
 	minplayers 40
 	votable
-endmap
+#endmap
 
-map radstation
+#map radstation
 	minplayers 20
 	votable
-endmap
+#endmap
 
-map echostation
+#map echostation
 	maxplayers 28
 	votable
-endmap
+#endmap
 
-map cardinalstation
+#map cardinalstation
 	minplayers 25
 	votable
-endmap
+#endmap
 
 #Debug Maps, you probably don't want these enabled.
 
-map runtimestation
+#map runtimestation
 	disabled
-endmap
+#endmap
 
-map multiz_debug
+#map multiz_debug
 	disabled
-endmap
+#endmap
