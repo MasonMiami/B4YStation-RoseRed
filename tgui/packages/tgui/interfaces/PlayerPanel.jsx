@@ -301,7 +301,7 @@ class PlayerDetails extends Component {
 
   render() {
     const {
-      metacurrency_name = 'BeeCoin', // sorry downstreams
+      metacurrency_name = 'FreeCoin', // sorry downstreams
       ckey,
       previous_names = [],
       has_mind,

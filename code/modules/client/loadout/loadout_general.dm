@@ -3,47 +3,47 @@
 /datum/gear/misc
 	subtype_path = /datum/gear/misc
 	sort_category = "General"
-	cost = 1000
+	cost = 0
 
 /datum/gear/misc/d20
 	display_name = "d20"
 	path = /obj/item/dice/d20
-	cost = 300
+	cost = 0
 
 /datum/gear/misc/eightball
 	display_name = "Magic Eightball"
 	description = "A black ball with a stenciled number eight in white on the side. It seems full of dark liquid. The instructions state that you should ask your question aloud, and then shake."
 	path = /obj/item/toy/eightball
-	cost = 500
+	cost = 0
 
 /datum/gear/misc/tarotdeck
 	display_name = "Tarot Deck"
 	description = "A full 78 card deck of Tarot Cards, no refunds on false predicitons."
 	path = /obj/item/toy/cards/deck/tarot
-	cost = 600
+	cost = 0
 
 /datum/gear/misc/antagtoken
 	display_name = "Discount Antag Token"
 	description = "Says \"Made in China\" on the back. Seems fishy."
 	path = /obj/item/coin/antagtoken
-	cost = 10000
+	cost = 0
 
 //LIGHTERS & CIGARETTES
 
 /datum/gear/misc/lighter
 	display_name = "Zippo lighter"
 	path = /obj/item/lighter
-	cost = 1500
+	cost = 0
 
 /datum/gear/misc/lighter/random
 	display_name = "random cheap lighter"
 	path = /obj/item/lighter/greyscale
-	cost = 1000
+	cost = 0
 
 /datum/gear/misc/cigarettes
 	display_name = "cigarettes, Space Cigarettes"
 	path = /obj/item/storage/fancy/cigarettes
-	cost = 800
+	cost = 0
 
 /datum/gear/misc/cigarettes/dromedaryco
 	display_name = "cigarettes, DromedaryCo"
@@ -68,9 +68,9 @@
 /datum/gear/misc/cigarettes/cohiba
 	display_name = "cigar, Cohiba Robusto"
 	path = /obj/item/clothing/mask/cigarette/cigar/cohiba
-	cost = 2400
+	cost = 0
 
 /datum/gear/misc/cigarettes/havana
 	display_name = "cigar, premium Havanian"
 	path = /obj/item/clothing/mask/cigarette/cigar/havana
-	cost = 2400
+	cost = 0

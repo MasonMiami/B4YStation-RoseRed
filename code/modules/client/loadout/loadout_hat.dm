@@ -2,7 +2,7 @@
 	subtype_path = /datum/gear/hat
 	slot = ITEM_SLOT_HEAD
 	sort_category = "Headwear"
-	cost = 2000
+	cost = 0
 
 //HARDHATS
 
@@ -10,19 +10,19 @@
 	display_name = "hardhat, yellow"
 	path = /obj/item/clothing/head/utility/hardhat
 	allowed_roles = list(JOB_NAME_CHIEFENGINEER, JOB_NAME_STATIONENGINEER, JOB_NAME_ATMOSPHERICTECHNICIAN)
-	cost = 2500
+	cost = 0
 
 /datum/gear/hat/hhat_orange
 	display_name = "hardhat, orange"
 	path = /obj/item/clothing/head/utility/hardhat/orange
 	allowed_roles = list(JOB_NAME_CHIEFENGINEER, JOB_NAME_STATIONENGINEER, JOB_NAME_ATMOSPHERICTECHNICIAN)
-	cost = 2500
+	cost = 0
 
 /datum/gear/hat/hhat_blue
 	display_name = "hardhat, blue"
 	path = /obj/item/clothing/head/utility/hardhat/dblue
 	allowed_roles = list(JOB_NAME_CHIEFENGINEER, JOB_NAME_STATIONENGINEER, JOB_NAME_ATMOSPHERICTECHNICIAN)
-	cost = 2500
+	cost = 0
 
 //CIVILIAN HATS & MISC
 
@@ -118,6 +118,10 @@
 	display_name = "cap, black"
 	path = /obj/item/clothing/head/soft/black
 
+/datum/gear/hat/soft/black
+	display_name = "cap, black"
+	path = /obj/item/clothing/head/soft
+
 //BEANIES
 
 /datum/gear/hat/beanie
@@ -176,45 +180,45 @@
 /datum/gear/hat/beanie/waldo
 	display_name = "beanie, red striped with bobble"
 	path = /obj/item/clothing/head/beanie/waldo
-	cost = 7500
+	cost = 0
 
 /datum/gear/hat/beanie/rasta
 	display_name = "beanie, rastafarian stripes"
 	path = /obj/item/clothing/head/beanie/rasta
-	cost = 7500
+	cost = 0
 
 //MEME HATS
 
 /datum/gear/hat/speedwagon
 	display_name = "extremely masculine hat"
 	path = /obj/item/clothing/head/costume/speedwagon
-	cost = 25000
+	cost = 0
 
 /datum/gear/hat/speedwagon_xl
 	display_name = "extremely elongated masculine hat"
 	path = /obj/item/clothing/head/costume/speedwagon/cursed
-	cost = 100000
+	cost = 0
 
 /datum/gear/hat/delinquent
 	display_name = "delinquent hat"
 	path = /obj/item/clothing/head/costume/delinquent
-	cost = 5000
+	cost = 0
 
 /datum/gear/hat/cueball
 	display_name = "cubeball helmet"
 	path = /obj/item/clothing/head/costume/cueball
-	cost = 5000
+	cost = 0
 
 /datum/gear/hat/piratehat
 	display_name = "pirate hat"
 	description = "Yarr. Comes with one free pirate speak manual."
 	path = /obj/item/clothing/head/costume/pirate
-	cost = 5000
+	cost = 0
 
 //CHAPLAIN HATS
 
 /datum/gear/hat/blackbishop
 	display_name = "black bishop mitre"
 	path = /obj/item/clothing/head/chaplain/bishopmitre/black
-	cost = 5000
+	cost = 0
 	allowed_roles = list(JOB_NAME_CHAPLAIN)

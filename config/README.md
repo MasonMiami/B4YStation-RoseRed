@@ -22,7 +22,7 @@ Example Request:
 {
 	"auth": "8w7y487238q8x7nqw8dhwe8fq34r89gewri",
 	"query": "ahelp",
-	"source": "BeeStation Sage",
+	"source": "Rose Red",
 	"message_sender": "a_player",
 	"message": "I don't see any admins online, can someone help? CE just killed me in maint 4noraisin"
 }
