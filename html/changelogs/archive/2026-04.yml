@@ -147,6 +147,8 @@
 >>>>>>> de07b43f86d (Automatic changelog compile [ci skip])
 =======
 2026-04-12:
+  DrDuckedGoose:
+  - bugfix: Fixes robot eye lights trailing behind them near blind people
   TsunamiAnt:
   - bugfix: Vampire Daylight notifications can now only appear if there are actually
       vampires present.
