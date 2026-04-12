@@ -143,4 +143,12 @@
   - server: fixed an erroneous warning when setting up the database during github
       integration tests
   - server: the slowest unit tests are now displayed
+<<<<<<< HEAD
 >>>>>>> de07b43f86d (Automatic changelog compile [ci skip])
+=======
+2026-04-12:
+  TsunamiAnt:
+  - bugfix: Vampire Daylight notifications can now only appear if there are actually
+      vampires present.
+  - admin: Vampire Daylight notifications are now posted to deadchat, not adminlog.
+>>>>>>> fd3ae127a01 (Automatic changelog compile [ci skip])
