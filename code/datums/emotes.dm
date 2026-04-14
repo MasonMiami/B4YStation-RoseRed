@@ -11,6 +11,9 @@
  */
 /datum/emote
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4da8703d6c2 (Implements `abstract_type` across the codebase (#14291))
 	abstract_type = /datum/emote
 
 	/// What calls the emote.
