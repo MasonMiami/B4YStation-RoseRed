@@ -231,6 +231,13 @@
 "bh" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Starboard Solar Access"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/cable/yellow,
@@ -619,6 +626,13 @@
 "cV" = (
 /obj/machinery/door/airlock/command{
 	name = "E.V.A."
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/eva,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/eva,
 /obj/structure/cable/yellow,
@@ -773,6 +787,13 @@
 "dC" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Access"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/cable/yellow,
@@ -862,6 +883,13 @@
 "dT" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Access"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/cable/yellow,
@@ -2450,6 +2478,13 @@
 "kR" = (
 /obj/machinery/door/airlock/security{
 	name = "Security"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
 /obj/structure/cable/yellow,
@@ -3166,6 +3201,28 @@
 /obj/structure/cable/yellow,
 /turf/closed/wall/r_wall,
 /area/ruin/space/derelict/se_solar)
+<<<<<<< HEAD
+=======
+"nK" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/derelict/se_solar)
+"nL" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/door/airlock/engineering{
+	name = "Aft Solar Access"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/turf/open/floor/iron/airless,
+/area/ruin/space/derelict/se_solar)
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 "nM" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating/airless,

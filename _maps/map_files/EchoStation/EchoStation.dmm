@@ -574,6 +574,9 @@
 	name = "Maintenance Hatch"
 	},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/abandoned,
 =======
@@ -3758,6 +3761,14 @@
 "aZe" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/science/exploration,
+/obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/exploration,
 /obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
@@ -4493,6 +4504,13 @@
 "bCx" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -4847,6 +4865,13 @@
 "bOe" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/rd,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/rd,
 /obj/structure/cable/yellow,
@@ -4965,6 +4990,16 @@
 "bRH" = (
 /obj/machinery/door/airlock/command{
 	name = "Chief Engineer's Office"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/ce,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/ce,
 /obj/structure/cable/yellow,
@@ -5706,6 +5741,13 @@
 "coN" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -7323,7 +7365,13 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/atmos/glass,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/engine_equipment,
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/disposalpipe/segment{
@@ -7643,6 +7691,15 @@
 /obj/effect/turf_decal/tile/dark_green/fourcorners/contrasted,
 /obj/machinery/door/airlock/medical/glass{
 	name = "kitchen"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/service/bar,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /obj/effect/mapping_helpers/airlock/access/any/service/bar,
@@ -7690,6 +7747,13 @@
 "duK" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/detective,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
 /obj/structure/cable/yellow,
@@ -7791,6 +7855,19 @@
 /obj/structure/ladder,
 /turf/open/floor/plating,
 /area/station/maintenance/department/chapel)
+<<<<<<< HEAD
+=======
+"dyO" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/crew_quarters/dorms)
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 "dyR" = (
 /obj/structure/railing,
 /turf/open/openspace/planetary,
@@ -8498,6 +8575,19 @@
 "dSP" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Server Room"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
 /obj/structure/cable,
@@ -9805,6 +9895,14 @@
 "eEl" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/security/detective,
+/obj/effect/mapping_helpers/airlock/access/any/security/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/security/detective,
 /obj/effect/mapping_helpers/airlock/access/any/security/general,
@@ -11351,6 +11449,7 @@
 <<<<<<< HEAD
 /area/station/security/brig)
 "fge" = (
+<<<<<<< HEAD
 =======
 /area/storage/tech)
 "fZX" = (
@@ -11380,7 +11479,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+=======
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Maintenance Hatch";
+	security_level = 6
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /turf/open/floor/iron,
@@ -11974,7 +12079,13 @@
 	name = "Thermoelectric Generator"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/engine_equipment,
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/engineering/atmos)
 "fqu" = (
@@ -12508,6 +12619,13 @@
 "fHb" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "AI Upload"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/ai_upload,
+/obj/structure/cable{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/ai_upload,
 /obj/structure/cable,
@@ -12724,6 +12842,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -13558,6 +13683,20 @@
 "glI" = (
 /obj/machinery/door/airlock{
 	name = "Service Hall"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/service/chapel_office,
+/obj/effect/mapping_helpers/airlock/access/any/service/bar,
+/obj/effect/mapping_helpers/airlock/access/any/service/janitor,
+/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/effect/mapping_helpers/airlock/access/any/service/library,
+/obj/effect/mapping_helpers/airlock/access/any/service/lawyer,
+/obj/effect/mapping_helpers/airlock/access/any/service/theatre,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/chapel_office,
 /obj/effect/mapping_helpers/airlock/access/any/service/bar,
@@ -14841,7 +14980,13 @@
 	security_level = 6
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "haY" = (
@@ -16056,6 +16201,13 @@
 "hSq" = (
 /obj/machinery/door/airlock/security{
 	name = "Detective's Office"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/detective,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
 /obj/structure/cable/yellow,
@@ -16153,6 +16305,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -17069,6 +17228,13 @@
 "iyM" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Xenobiology Lab"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/research,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/research,
 /obj/structure/cable/yellow,
@@ -21602,6 +21768,13 @@
 "jOe" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -22257,6 +22430,13 @@
 "kkM" = (
 /obj/machinery/door/airlock/security{
 	name = "Autopsy"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/detective,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
 /obj/structure/cable/yellow,
@@ -24939,7 +25119,13 @@
 	security_level = 6
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/effect/turf_decal/stripes/closeup,
@@ -25339,6 +25525,13 @@
 "maM" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
 /obj/structure/cable/yellow,
@@ -25547,6 +25740,13 @@
 "mhz" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Office"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
 /obj/structure/cable/yellow,
@@ -25838,6 +26038,16 @@
 "moG" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Morgue"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/effect/mapping_helpers/airlock/access/any/security/detective,
+/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
@@ -30115,6 +30325,13 @@
 "nBN" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -30436,6 +30653,13 @@
 "nML" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Telecommunications"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
 /obj/structure/cable/yellow,
@@ -30826,6 +31050,13 @@
 "nWU" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Disposal Access"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -32955,6 +33186,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/service/bar,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /obj/effect/mapping_helpers/airlock/access/any/service/bar,
@@ -34069,6 +34309,14 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	id_tag = "commissarydoor";
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
+/obj/effect/mapping_helpers/airlock/access/any/command/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
 /obj/effect/mapping_helpers/airlock/access/any/command/general,
@@ -34975,6 +35223,13 @@
 "pYz" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -35349,7 +35604,13 @@
 	security_level = 6
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /obj/effect/turf_decal/stripes/closeup,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -35600,6 +35861,13 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Medbay Maintenance"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/structure/cable/yellow,
@@ -35975,6 +36243,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/access/any/supply/general,
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/access/any/supply/general,
@@ -37989,6 +38266,13 @@
 "rUr" = (
 /obj/machinery/door/airlock/command{
 	name = "Head of Personnel's Office"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/hop,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/hop,
 /obj/structure/cable/yellow,
@@ -38194,6 +38478,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/ce,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/ce,
 /obj/structure/cable/yellow,
@@ -39088,6 +39379,13 @@
 "syR" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/structure/cable/yellow,
@@ -39243,6 +39541,13 @@
 "sDe" = (
 /obj/machinery/door/airlock/command{
 	name = "Head of Personnel's Office"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/hop,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/hop,
 /obj/structure/cable/yellow,
@@ -41977,6 +42282,13 @@
 "uow" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /obj/structure/cable/yellow,
@@ -42987,6 +43299,15 @@
 "uWf" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
+/obj/effect/mapping_helpers/airlock/access/any/service/bar,
+/obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /obj/effect/mapping_helpers/airlock/access/any/service/bar,
@@ -43013,6 +43334,13 @@
 "uWD" = (
 /obj/machinery/door/airlock/command{
 	name = "Captain's Quarters"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/captain,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/captain,
 /obj/structure/cable/yellow,
@@ -44878,6 +45206,14 @@
 "vVw" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
@@ -44957,6 +45293,13 @@
 "vXJ" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering Foyer"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
 /obj/structure/cable/yellow,
@@ -45935,6 +46278,13 @@
 "wAO" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/research,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/research,
 /obj/structure/cable/yellow,
@@ -46036,6 +46386,14 @@
 "wCo" = (
 /obj/machinery/door/airlock/hatch{
 	name = "MiniSat Teleporter"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/any/command/teleporter,
+/obj/effect/mapping_helpers/airlock/access/any/science/minisat,
+/obj/structure/cable{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/command/teleporter,
 /obj/effect/mapping_helpers/airlock/access/any/science/minisat,
@@ -46047,6 +46405,16 @@
 "wDk" = (
 /obj/machinery/door/airlock/command{
 	name = "Research Director's Office"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/rd,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/rd,
 /obj/structure/cable/yellow,

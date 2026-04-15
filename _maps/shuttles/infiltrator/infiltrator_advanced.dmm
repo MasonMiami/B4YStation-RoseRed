@@ -375,6 +375,13 @@
 	},
 /obj/machinery/door/airlock/hatch{
 	name = "Infiltrator Access"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable/yellow,
@@ -471,6 +478,13 @@
 	},
 /obj/machinery/door/airlock/hatch{
 	name = "Infiltrator Access"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable/yellow,
@@ -1652,6 +1666,13 @@
 "ec" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Ordnance Storage"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable/yellow,
@@ -1740,6 +1761,13 @@
 "ek" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Ordnance Storage"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable/yellow,

@@ -256,6 +256,13 @@
 "aO" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Recycling Room"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/structure/cable/yellow,
@@ -986,6 +993,13 @@
 "cD" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Provisions Storage"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/structure/cable/yellow,
@@ -1491,6 +1505,13 @@
 "ee" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Secure Storage"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/structure/cable/yellow,
@@ -1585,6 +1606,13 @@
 "er" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Airlock Control"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/structure/cable/yellow,
@@ -2504,6 +2532,13 @@
 "gL" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "RTG Observation"
+<<<<<<< HEAD
+=======
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/structure/cable{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/structure/cable,
