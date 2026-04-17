@@ -260,11 +260,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -997,11 +1000,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
@@ -1509,11 +1515,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
 	dir = 4
@@ -1610,11 +1619,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden,
@@ -2536,11 +2548,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+<<<<<<< HEAD
 /obj/structure/cable{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/deepstorage/power)

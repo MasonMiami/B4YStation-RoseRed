@@ -353,11 +353,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+<<<<<<< HEAD
 /obj/structure/cable{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/engineering/atmospherics_engine)
@@ -1729,11 +1732,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -1953,11 +1959,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/ai_upload,
+<<<<<<< HEAD
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/ai_upload,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/orange,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -3841,6 +3850,7 @@
 	alpha = 180
 	},
 <<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 =======
 /obj/structure/cable/yellow{
@@ -3850,6 +3860,9 @@
 	icon_state = "2-8"
 	},
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/door/airlock/atmos/glass,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /obj/machinery/door/firedoor,
@@ -4091,6 +4104,7 @@
 	dir = 4
 	},
 /obj/structure/cable/yellow,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 /obj/item/wallframe/defib_mount,
@@ -6314,6 +6328,8 @@
 	icon_state = "2-8"
 	},
 >>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	alpha = 180;
 	dir = 8
@@ -9165,6 +9181,7 @@
 <<<<<<< HEAD
 /obj/machinery/power/apc/auto_name/directional/north{
 	areastring = "/area/station/science/mixing/chamber"
+<<<<<<< HEAD
 =======
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -9206,6 +9223,8 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 >>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 	},
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/dark/side{
@@ -14876,6 +14895,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance,
 /obj/effect/mapping_helpers/airlock/access/any/science/robotics,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
@@ -14883,6 +14903,8 @@
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance,
 /obj/effect/mapping_helpers/airlock/access/any/science/robotics,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/port/central)
@@ -17643,6 +17665,7 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
+<<<<<<< HEAD
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -17651,6 +17674,8 @@
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -18056,11 +18081,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/station/maintenance/department/bridge)
@@ -18082,11 +18110,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/janitor,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/janitor,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
@@ -18225,11 +18256,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/auxiliary)
@@ -21297,11 +21331,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
@@ -22796,11 +22833,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -24452,12 +24492,15 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/supply/general,
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/supply/general,
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -27401,6 +27444,7 @@
 <<<<<<< HEAD
 /area/station/engineering/main)
 "jrJ" = (
+<<<<<<< HEAD
 =======
 /area/hallway/primary/fore)
 "mtA" = (
@@ -27459,6 +27503,8 @@
 /area/crew_quarters/heads/cmo)
 "mui" = (
 >>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
@@ -27668,11 +27714,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -34280,12 +34329,15 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance,
 /obj/effect/mapping_helpers/airlock/access/any/science/robotics,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance,
 /obj/effect/mapping_helpers/airlock/access/any/science/robotics,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/plating{
 	burnt = 1
@@ -35002,11 +35054,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/teleporter,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/teleporter,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/dark,
 /area/station/command/teleporter)
@@ -36424,11 +36479,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/detective,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/closeup{
@@ -41344,6 +41402,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/supply/general,
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining,
 /obj/effect/mapping_helpers/airlock/access/any/service/janitor,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
@@ -41351,6 +41410,8 @@
 /obj/effect/mapping_helpers/airlock/access/any/supply/general,
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining,
 /obj/effect/mapping_helpers/airlock/access/any/service/janitor,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -45482,6 +45543,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
+<<<<<<< HEAD
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -45492,6 +45554,8 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -47039,11 +47103,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
@@ -49686,12 +49753,16 @@
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/purple/fourcorners/contrasted,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 =======
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/door/airlock/research/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance_storage,
 /turf/open/floor/iron/white,
@@ -54420,12 +54491,15 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/department/medical)
@@ -56881,11 +56955,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
@@ -59538,11 +59615,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/chemistry,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/chemistry,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/structure/disposalpipe/segment{
 	dir = 8
@@ -62824,11 +62904,14 @@
 =======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical,
+<<<<<<< HEAD
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/carpet/blue,
 /area/station/medical/exam_room)
@@ -65542,6 +65625,7 @@
 /turf/open/floor/catwalk_floor,
 /area/station/engineering/atmos)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "wZj" = (
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -65554,6 +65638,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 "wZp" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -65892,12 +65978,16 @@
 	dir = 1
 	},
 <<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 =======
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 >>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/door/airlock/engineering/glass,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{

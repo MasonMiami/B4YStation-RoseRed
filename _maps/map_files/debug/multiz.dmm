@@ -502,12 +502,16 @@
 	pixel_x = -24
 	},
 <<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable,
 =======
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 >>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+/obj/structure/cable,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/closet/firecloset,
 /turf/open/floor/iron{
 	dir = 9

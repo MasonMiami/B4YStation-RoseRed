@@ -338,6 +338,7 @@
 #undef MODE_AIRLOCK
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /*
 
@@ -478,6 +479,8 @@
 */
 
 >>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 //Dunno where else to put this so shrug
 /obj/item/mecha_parts/mecha_equipment/ripleyupgrade
 	name = "Ripley MK-II Conversion Kit"
