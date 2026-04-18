@@ -41,6 +41,7 @@
 		return QDEL_HINT_LETMELIVE
 	SSlighting.objects_queue -= src
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if (loc != affected_turf)
 		var/turf/oldturf = get_turf(affected_turf)
 		var/turf/newturf = get_turf(loc)
@@ -59,6 +60,16 @@
 		myturf.underlays -= additive_underlay
 	myturf = null
 >>>>>>> 2e8f6b0a8c5 (Fixes `ChangeTurf()` sometimes not updating lighting correctly & fixes luminosity jank (#14281))
+=======
+	if (loc != affected_turf)
+		var/turf/oldturf = get_turf(affected_turf)
+		var/turf/newturf = get_turf(loc)
+		stack_trace("A lighting object was qdeleted with a different loc then it is suppose to have ([COORD(oldturf)] -> [COORD(newturf)])")
+	if (isturf(affected_turf))
+		affected_turf.lighting_object = null
+		affected_turf.underlays -= additive_underlay
+	affected_turf = null
+>>>>>>> 8f542751109 (Fixes bloom (#14304))
 	return ..()
 
 /atom/movable/lighting_object/proc/update()
