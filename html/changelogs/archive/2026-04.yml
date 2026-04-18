@@ -221,4 +221,10 @@
       now.
   - refactor: Optimized powernet and cable code
   - rscdel: Removed the rapid cable layer
+<<<<<<< HEAD
 >>>>>>> 39f3d6b10a1 (Automatic changelog compile [ci skip])
+=======
+2026-04-18:
+  timothymtorres:
+  - server: PRs that don't touch mapping no longer have maplints ran on them
+>>>>>>> ce066be6ee0 (Automatic changelog compile [ci skip])
