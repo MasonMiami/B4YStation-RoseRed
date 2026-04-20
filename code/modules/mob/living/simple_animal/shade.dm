@@ -42,7 +42,15 @@
 	ADD_TRAIT(src, TRAIT_SPACEWALK, INNATE_TRAIT)
 
 /mob/living/simple_animal/shade/death()
+<<<<<<< HEAD
+<<<<<<< HEAD
 	death_message = "lets out a contented sigh as [p_their()] form unwinds."
+=======
+	deathmessage = "lets out a contented sigh as [p_their()] form unwinds."
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+	death_message = "lets out a contented sigh as [p_their()] form unwinds."
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	return ..()
 
 /mob/living/simple_animal/shade/canSuicide()

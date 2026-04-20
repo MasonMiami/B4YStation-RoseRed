@@ -838,7 +838,10 @@
 #include "code\datums\components\grillable.dm"
 #include "code\datums\components\ground_sinking.dm"
 #include "code\datums\components\haircolor_clothes.dm"
+<<<<<<< HEAD
 #include "code\datums\components\hat_stabilizer.dm"
+=======
+>>>>>>> 9c29087fe4d (Overhaul Height Effects Code (#14132))
 #include "code\datums\components\height_filter.dm"
 #include "code\datums\components\heirloom.dm"
 #include "code\datums\components\honkspam.dm"

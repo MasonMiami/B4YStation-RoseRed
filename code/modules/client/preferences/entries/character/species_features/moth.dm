@@ -9,8 +9,17 @@
 /datum/preference/choiced/moth_antennae/init_possible_values()
 	return assoc_to_keys_features(GLOB.moth_antennae_list)
 
+<<<<<<< HEAD
 /datum/preference/choiced/moth_antennae/icon_for(value)
 	var/static/datum/universal_icon/moth_head
+=======
+	var/datum/universal_icon/moth_head = uni_icon('icons/mob/human/species/moth/bodyparts.dmi', "moth_head", dir = SOUTH)
+<<<<<<< HEAD
+	moth_head.blend_icon(uni_icon('icons/mob/human/species/moth/eyes.dmi', "eyes", dir = SOUTH), ICON_OVERLAY)
+>>>>>>> 33d4e6a9baf (Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye preference. (#14234))
+=======
+	moth_head.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes", dir = SOUTH), ICON_OVERLAY)
+>>>>>>> 2dac8bf4362 (Revert "Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye …" (#14249))
 
 	if (isnull(moth_head))
 		moth_head = uni_icon('icons/mob/human/species/moth/bodyparts.dmi', "moth_head")
@@ -52,11 +61,19 @@
 	if (isnull(moth_body))
 		moth_body = uni_icon('icons/effects/effects.dmi', "nothing")
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 		for (var/obj/item/bodypart/body_part as anything in body_parts)
 			var/limb_id = initial(body_part.limb_id)
 			var/body_zone = initial(body_part.body_zone)
 			var/dimorphic_suffix = initial(body_part.is_dimorphic) ? "_m" : ""
 			moth_body.blend_icon(uni_icon('icons/mob/human/species/moth/bodyparts.dmi', "[limb_id]_[body_zone][dimorphic_suffix]"), ICON_OVERLAY)
+=======
+	moth_body.blend_icon(uni_icon('icons/mob/human/species/moth/eyes.dmi', "eyes", dir = SOUTH), ICON_OVERLAY)
+>>>>>>> 33d4e6a9baf (Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye preference. (#14234))
+=======
+	moth_body.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes", dir = SOUTH), ICON_OVERLAY)
+>>>>>>> 2dac8bf4362 (Revert "Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye …" (#14249))
 
 		moth_body.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes_l"), ICON_OVERLAY)
 		moth_body.blend_icon(uni_icon('icons/mob/human/human_face.dmi', "motheyes_r"), ICON_OVERLAY)

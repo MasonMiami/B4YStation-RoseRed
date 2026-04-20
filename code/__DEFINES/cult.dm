@@ -21,8 +21,11 @@
 #define THEME_WIZARD "wizard"
 #define THEME_HOLY "holy"
 
+<<<<<<< HEAD
 #define CULT_POLL_WAIT (4 MINUTES)
 
+=======
+>>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 ///how many sacrifices we have used, cultists get 1 free revive at the start
 GLOBAL_VAR_INIT(sacrifices_used, -SOULS_TO_REVIVE)
 
