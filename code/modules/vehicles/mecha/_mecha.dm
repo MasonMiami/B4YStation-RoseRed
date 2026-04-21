@@ -246,10 +246,6 @@
 	diag_hud_set_mechstat()
 	update_appearance()
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 	become_hearing_sensitive(trait_source = ROUNDSTART_TRAIT)
 	add_traits(list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE), ROUNDSTART_TRAIT) //stormy weather (keeps rainin' all the time)
 	for(var/key in equip_by_category)
@@ -264,13 +260,6 @@
 			var/obj/item/mecha_parts/mecha_equipment/thing = new path
 			thing.attach(src, FALSE)
 			equip_by_category[key] -= path
-<<<<<<< HEAD
-=======
-	become_hearing_sensitive(trait_source = INNATE_TRAIT)
-	add_traits(list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT) //stormy weather (keeps rainin' all the time)
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
-=======
->>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 
 	AddElement(/datum/element/atmos_sensitive)
 	AddElement(/datum/element/falling_hazard, damage = 80, hardhat_safety = FALSE, crushes = TRUE)

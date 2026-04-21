@@ -20,15 +20,7 @@
 	mutant_bodyparts = list(
 		"moth_wings" = "Plain",
 		"moth_antennae" = "Plain",
-<<<<<<< HEAD
 		"moth_markings" = SPRITE_ACCESSORY_NONE,
-=======
-		"moth_markings" = "None",
-<<<<<<< HEAD
-		"moth_eyes" = "Default",
->>>>>>> 33d4e6a9baf (Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye preference. (#14234))
-=======
->>>>>>> 2dac8bf4362 (Revert "Raspberry-sponsored Moth Update. Adds mutcolor compatibility and eye …" (#14249))
 		"body_size" = "Normal"
 	)
 	attack_verb = "slash"

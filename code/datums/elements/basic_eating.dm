@@ -45,11 +45,7 @@
 	))
 	return ..()
 
-<<<<<<< HEAD
 /datum/element/basic_eating/proc/try_feed(atom/source, obj/item/possible_food, mob/living/user)
-=======
-/datum/element/basic_eating/proc/try_feed(atom/source, mob/living/user, atom/possible_food)
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 	SIGNAL_HANDLER
 	if(user.combat_mode || !is_type_in_list(possible_food, food_types))
 		return NONE
@@ -60,8 +56,6 @@
 
 /datum/element/basic_eating/proc/on_unarm_attack(mob/living/eater, atom/target, proximity, modifiers)
 	SIGNAL_HANDLER
-<<<<<<< HEAD
-=======
 
 	if(!proximity)
 		return
@@ -69,19 +63,8 @@
 	if(try_eating(eater, target))
 		return COMPONENT_CANCEL_ATTACK_CHAIN
 	return
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
-
-	if(!proximity)
-		return
-
-<<<<<<< HEAD
-	if(try_eating(eater, target))
-		return COMPONENT_CANCEL_ATTACK_CHAIN
-	return
 
 
-=======
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 /datum/element/basic_eating/proc/try_eating(mob/living/eater, atom/target, mob/living/feeder)
 	if(!is_type_in_list(target, food_types))
 		return FALSE

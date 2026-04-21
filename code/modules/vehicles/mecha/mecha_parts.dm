@@ -10,10 +10,6 @@
 	w_class = WEIGHT_CLASS_GIGANTIC
 	obj_flags = CONDUCTS_ELECTRICITY
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 /obj/item/mecha_parts/proc/try_attach_part(mob/user, obj/vehicle/sealed/mecha/M, attach_right = FALSE) //For attaching parts to a finished mech
 	if(!user.transferItemToLoc(src, M))
 		to_chat(user, span_warning("\The [src] is stuck to your hand, you cannot put it in \the [M]!"))
