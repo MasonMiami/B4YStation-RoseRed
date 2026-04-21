@@ -44,6 +44,7 @@ DEFINE_BITFIELD(area_flags, list(
 	"HIDDEN_STASH_LOCATION" = HIDDEN_STASH_LOCATION,
 ))
 
+<<<<<<< HEAD
 DEFINE_BITFIELD(turf_flags, list(
 	"NO_LAVA_GEN" = NO_LAVA_GEN,
 	"NO_RUINS" = NO_RUINS,
@@ -51,6 +52,8 @@ DEFINE_BITFIELD(turf_flags, list(
 	"UNUSED_RESERVATION_TURF" = UNUSED_RESERVATION_TURF,
 ))
 
+=======
+>>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 DEFINE_BITFIELD(internal_damage, list(
 	"MECHA_INT_FIRE" = MECHA_INT_FIRE,
 	"MECHA_INT_TEMP_CONTROL" = MECHA_INT_TEMP_CONTROL,

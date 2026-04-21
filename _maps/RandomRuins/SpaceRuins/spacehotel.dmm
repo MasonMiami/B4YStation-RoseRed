@@ -704,8 +704,18 @@
 "cK" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Hotel Maintenance"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
 	dir = 4
@@ -2140,9 +2150,20 @@
 "id" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Power Storage"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden{
@@ -2882,9 +2903,20 @@
 "mx" = (
 /obj/machinery/door/airlock{
 	name = "Custodial Closet"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
 	dir = 4
@@ -2942,8 +2974,18 @@
 "mQ" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Hotel Staff Room"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
@@ -3737,9 +3779,20 @@
 "Pc" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Power Storage"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/hotel/secondary_solars)

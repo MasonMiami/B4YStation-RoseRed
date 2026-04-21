@@ -397,6 +397,38 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 /mob/living/proc/treat_message(message, capitalize_message = TRUE)
 	RETURN_TYPE(/list)
 
+<<<<<<< HEAD
+=======
+	var/sigreturn = SEND_SIGNAL(src, COMSIG_LIVING_TRY_SPEECH, message, ignore_spam, forced)
+	if(sigreturn & COMPONENT_CAN_ALWAYS_SPEAK)
+		return TRUE
+
+	if(sigreturn & COMPONENT_CANNOT_SPEAK)
+		return FALSE
+
+	if(!can_speak())
+		if(HAS_MIND_TRAIT(src, TRAIT_MIMING))
+			to_chat(src, span_green("Your vow of silence prevents you from speaking!"))
+		else
+			to_chat(src, span_warning("You find yourself unable to speak!"))
+		return FALSE
+
+	return TRUE
+
+/mob/living/can_speak(allow_mimes = FALSE)
+	if(!allow_mimes && HAS_MIND_TRAIT(src, TRAIT_MIMING))
+		return FALSE
+
+	if(HAS_TRAIT(src, TRAIT_MUTE))
+		return FALSE
+
+	if(is_muzzled())
+		return FALSE
+
+	return TRUE
+
+/mob/living/proc/treat_message(message)
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 	if(HAS_TRAIT(src, TRAIT_UNINTELLIGIBLE_SPEECH))
 		message = unintelligize(message)
 

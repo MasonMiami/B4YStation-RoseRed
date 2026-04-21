@@ -613,7 +613,17 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /turf/open/floor/iron/techmaint,
 /area/ruin/unpowered/syndicate_lava_base/starboard)
 "fT" = (
@@ -2331,8 +2341,18 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command/glass{
 	name = "Bridge"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/techmaint,
 /area/ruin/unpowered/syndicate_lava_base/bridge)
@@ -3269,8 +3289,18 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/door/airlock/mining/glass{
 	name = "Cargo Bay"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/techmaint,
 /area/ruin/unpowered/syndicate_lava_base/cargo)

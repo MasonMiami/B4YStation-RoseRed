@@ -25,6 +25,10 @@ SUBSYSTEM_DEF(tgui)
 
 /datum/controller/subsystem/tgui/PreInit()
 	basehtml = file2text('tgui/public/tgui.html')
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 65c4dc19cb9 (Kills 515 TGUI support (#14285))
 
 	// Inject inline helper functions
 	var/helpers = file2text('tgui/public/helpers.min.js')
@@ -36,6 +40,15 @@ SUBSYSTEM_DEF(tgui)
 	ntos_error = "<style type='text/css'>\n[ntos_error]\n</style>"
 	basehtml = replacetextEx(basehtml, "<!-- tgui:ntos-error -->", ntos_error)
 
+<<<<<<< HEAD
+=======
+	// Inject inline polyfills
+	var/polyfill = file2text('tgui/public/tgui-polyfill.min.js')
+	polyfill = "<script>\n[polyfill]\n</script>"
+	basehtml = replacetextEx(basehtml, "<!-- tgui:inline-polyfill -->", polyfill)
+>>>>>>> 24d09c6b166 (Ports a bunch of TG paper changes (#14194))
+=======
+>>>>>>> 65c4dc19cb9 (Kills 515 TGUI support (#14285))
 	basehtml = replacetextEx(basehtml, "<!-- tgui:nt-copyright -->", "Nanotrasen (c) 2525-[CURRENT_STATION_YEAR]")
 
 /datum/controller/subsystem/tgui/Shutdown()

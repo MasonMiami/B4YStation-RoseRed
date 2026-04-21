@@ -37,7 +37,11 @@
 
 	// Get a sample ballistic weapon.
 	// The syndicate .357 here is chosen because it does a lot of damage.
+<<<<<<< HEAD
 	var/obj/item/gun/ballistic/dummy_gun = allocate(/obj/item/gun/ballistic/revolver/accurate)
+=======
+	var/obj/item/gun/ballistic/dummy_gun = allocate(/obj/item/gun/ballistic/revolver)
+>>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))
 	var/obj/item/ammo_casing/ballistic_ammo = dummy_gun.magazine.ammo_type
 	var/obj/projectile/bullet_fired = initial(ballistic_ammo.projectile_type)
 	var/expected_bullet_damage = round(initial(bullet_fired.damage) * (1 - expected_bullet_armor / 100), DAMAGE_PRECISION)
@@ -86,6 +90,7 @@
 
 	var/damage_taken = round(pre_integrity - post_hit_health, DAMAGE_PRECISION)
 	TEST_ASSERT(damage_taken <= expected_damage && damage_taken >= round(expected_damage / 2, DAMAGE_PRECISION), "[checking] didn't take the expected amount of damage when [hit_by_phrase]. (Expected damage: [expected_damage], received damage: [damage_taken])")
+<<<<<<< HEAD
 
 /obj/item/gun/ballistic/revolver/accurate
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/accurate
@@ -98,3 +103,5 @@
 
 /obj/projectile/bullet/a357/accurate
 	zone_accurate = TRUE
+=======
+>>>>>>> 4d85d07cb72 (Converts Mech Interface to TGUI (#12364))

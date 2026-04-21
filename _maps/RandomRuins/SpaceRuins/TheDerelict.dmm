@@ -231,8 +231,18 @@
 "bh" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Starboard Solar Access"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron,
 /area/ruin/space/derelict/solar_control)
@@ -619,8 +629,18 @@
 "cV" = (
 /obj/machinery/door/airlock/command{
 	name = "E.V.A."
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/eva,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/eva,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron,
 /area/ruin/space/derelict/bridge/access)
@@ -773,8 +793,18 @@
 "dC" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Access"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -862,8 +892,18 @@
 "dT" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Access"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron,
 /area/ruin/space/derelict/gravity_generator)
@@ -2450,8 +2490,18 @@
 "kR" = (
 /obj/machinery/door/airlock/security{
 	name = "Security"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/airless,
 /area/ruin/space/derelict/hallway/primary)
@@ -3166,6 +3216,31 @@
 /obj/structure/cable/yellow,
 /turf/closed/wall/r_wall,
 /area/ruin/space/derelict/se_solar)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"nK" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/space/derelict/se_solar)
+"nL" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/machinery/door/airlock/engineering{
+	name = "Aft Solar Access"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/turf/open/floor/iron/airless,
+/area/ruin/space/derelict/se_solar)
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 "nM" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /turf/open/floor/plating/airless,

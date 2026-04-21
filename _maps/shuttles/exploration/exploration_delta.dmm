@@ -53,7 +53,17 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
@@ -93,6 +103,14 @@
 	dir = 1
 	},
 /obj/structure/cable/yellow,
+<<<<<<< HEAD
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -101,10 +119,36 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "kp" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt/dust,
+=======
+/mob/living/simple_animal/turkey{
+	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0);
+	desc = "A veteran of Nanotrasen's Animal Experimentation Program that attempted to replicate the organic space suit that some hostile entities are known to have exhibited, Tom now serves Nanotrasen as the mascot of the Exploration Crew.";
+	health = 200;
+	maxHealth = 200;
+	melee_damage = 5;
+	minbodytemp = 2.7;
+	name = "Tom"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden,
+>>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "ll" = (
@@ -117,12 +161,27 @@
 /turf/open/floor/plating,
 /area/shuttle/exploration)
 "oH" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 /obj/structure/wall_closet/emergency/directional/north,
 /obj/effect/turf_decal/stripes,
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
+/obj/structure/wall_closet/emergency/directional/north,
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -175,7 +234,17 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "qX" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
@@ -238,12 +307,32 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "tq" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "ts" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
@@ -298,7 +387,17 @@
 /turf/open/floor/plating,
 /area/shuttle/exploration)
 "DM" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/door/airlock/shuttle/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -324,7 +423,17 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/external/glass,
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
@@ -342,18 +451,42 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "HO" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
 /obj/machinery/power/shieldwallgen/atmos{
 	id = "HolofieldExplo";
 	anchored = 1
 	},
+=======
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
+/obj/machinery/power/shieldwallgen/atmos{
+	id = "HolofieldExplo";
+	anchored = 1
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
 /obj/machinery/door/poddoor/shutters{
 	id = "exploshutters"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "In" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -444,13 +577,32 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "PA" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "Qb" = (
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/power/shieldwallgen/atmos{
 	dir = 1;
@@ -495,7 +647,17 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+<<<<<<< HEAD
+<<<<<<< HEAD
 /obj/structure/cable/yellow,
+=======
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+=======
+/obj/structure/cable/yellow,
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/titanium,
@@ -531,8 +693,26 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
+<<<<<<< HEAD
+=======
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
+<<<<<<< HEAD
+"ZX" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/effect/decal/cleanable/dirt/dust,
+>>>>>>> 0878f910e82 (Exploration Mapping Fixes/Changes (#14178))
+/turf/open/floor/mineral/titanium,
+/area/shuttle/exploration)
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 
 (1,1,1) = {"
 da

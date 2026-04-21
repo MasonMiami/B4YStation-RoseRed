@@ -374,9 +374,20 @@
 "bV" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "mining Relay Room"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/tcoms,
+<<<<<<< HEAD
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/tcoms,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/turf_decal/stripes/closeup,
 /turf/open/floor/iron/techmaint,
@@ -5003,10 +5014,22 @@
 "EX" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Radioisotope Containment Room"
+<<<<<<< HEAD
+=======
 	},
 /obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
 /obj/effect/mapping_helpers/airlock/access/any/command/eva,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+<<<<<<< HEAD
+/obj/structure/cable{
+	icon_state = "1-2"
+>>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
+	},
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining_station,
+/obj/effect/mapping_helpers/airlock/access/any/command/eva,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/general,
+=======
+>>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/closeup,
 /turf/open/floor/iron/techmaint,
