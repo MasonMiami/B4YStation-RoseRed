@@ -58,10 +58,7 @@
 /datum/component/obeys_commands/proc/on_key_unpressed(mob/living/source)
 	SIGNAL_HANDLER
 	UnregisterSignal(source, COMSIG_ATOM_MOUSE_ENTERED)
-<<<<<<< HEAD
 	remove_from_viewers(source)
-=======
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
 /datum/component/obeys_commands/proc/remove_from_viewers(mob/living/source)
 	radial_viewers -= REF(source)
@@ -96,12 +93,8 @@
 	if(mouse_hovered == parent)
 		display_menu(friend)
 		return
-<<<<<<< HEAD
 	var/mob/living/owner = parent
 	if(isliving(mouse_hovered) && mouse_hovered.loc != owner.loc)
-=======
-	if(isliving(mouse_hovered))
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 		remove_from_viewers(friend)
 
 /// Displays a radial menu of commands

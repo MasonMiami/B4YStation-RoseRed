@@ -71,13 +71,8 @@
 		stack_trace("Warning: [src]([type]) initialized multiple times!")
 	flags_1 |= INITIALIZED_1
 
-<<<<<<< HEAD
 	var/area/our_area = loc
 	if(!our_area.has_starlight_overlay)
-=======
-	var/area/A = loc
-	if(IS_DYNAMIC_LIGHTING(A))
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 		add_overlay(GLOB.starlight_overlay)
 
 	if(requires_activation)

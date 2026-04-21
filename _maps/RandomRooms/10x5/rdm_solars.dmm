@@ -27,39 +27,6 @@
 /obj/structure/cable,
 /obj/machinery/power/solar/fake,
 /turf/open/floor/iron/dark/airless,
-<<<<<<< HEAD
-=======
-/area/template_noop)
-"j" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/template_noop)
-"k" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/template_noop)
-"l" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 /area/template_noop)
 "n" = (
 /obj/machinery/power/terminal{
@@ -151,29 +118,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/template_noop)
-<<<<<<< HEAD
-=======
-"Y" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/template_noop)
-"Z" = (
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/solar/fake,
-/turf/open/floor/iron/dark/airless,
-/area/template_noop)
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 
 (1,1,1) = {"
 o

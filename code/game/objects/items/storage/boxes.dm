@@ -121,11 +121,7 @@
 	alpha = 0
 
 /obj/item/storage/box/mime/attack_hand(mob/user, list/modifiers)
-<<<<<<< HEAD
 	..()
-=======
-	. = ..()
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 	if(HAS_MIND_TRAIT(user, TRAIT_MIMING))
 		alpha = 255
 

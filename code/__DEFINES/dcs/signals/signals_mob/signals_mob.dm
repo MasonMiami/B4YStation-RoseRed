@@ -20,11 +20,8 @@
 
 /// From the base of /datum/component/callouts/proc/callout_picker(mob/user, atom/clicked_atom): (datum/callout_option/callout, atom/target)
 #define COMSIG_MOB_CREATED_CALLOUT "mob_created_callout"
-<<<<<<< HEAD
 /// from /mob/proc/slip(): (knockdown_amonut, obj/slipped_on, lube_flags [mobs.dm], paralyze, force_drop)
 #define COMSIG_MOB_SLIPPED "mob_slipped"
-=======
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
 /// from /mob/proc/key_down(): (key, client/client, full_key)
 #define COMSIG_MOB_KEYDOWN "mob_key_down"

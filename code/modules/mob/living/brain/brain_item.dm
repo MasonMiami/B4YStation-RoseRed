@@ -304,10 +304,6 @@
 		TRAIT_PRIMITIVE,
 		TRAIT_BEAST_EMPATHY,
 	)
-<<<<<<< HEAD
-
-=======
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
 
 /obj/item/organ/brain/primate

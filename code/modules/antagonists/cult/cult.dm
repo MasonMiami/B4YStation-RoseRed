@@ -315,11 +315,7 @@
 	if(ratio > CULT_RISEN && !cult_risen)
 		for(var/datum/mind/mind as anything in members)
 			if(mind.current)
-<<<<<<< HEAD
 				SEND_SOUND(mind.current, 'sound/ambience/antag/bloodcult_eyes.ogg')
-=======
-				SEND_SOUND(mind.current, 'sound/hallucinations/i_see_you2.ogg')
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 				to_chat(mind.current, span_cultlarge("The veil weakens as your cult grows, your eyes begin to glow..."))
 				log_game("The blood cult was given red eyes at cult population of [cultplayers].")
 				addtimer(CALLBACK(src, PROC_REF(rise), mind.current), 200)
@@ -329,11 +325,7 @@
 	if(ratio > CULT_ASCENDENT && !cult_ascendent)
 		for(var/datum/mind/mind as anything in members)
 			if(mind.current)
-<<<<<<< HEAD
 				SEND_SOUND(mind.current, 'sound/ambience/antag/bloodcult_halos.ogg')
-=======
-				SEND_SOUND(mind.current, 'sound/hallucinations/im_here1.ogg')
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 				to_chat(mind.current, span_cultlarge("Your cult is ascendent and the red harvest approaches - you cannot hide your true nature for much longer!!"))
 				log_game("The blood cult was given halos at cult population of [cultplayers].")
 				addtimer(CALLBACK(src, PROC_REF(ascend), mind.current), 200)
