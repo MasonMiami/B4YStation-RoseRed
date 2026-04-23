@@ -704,18 +704,8 @@
 "cK" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Hotel Maintenance"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
 	dir = 4
@@ -1770,7 +1760,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
 "gJ" = (
-/obj/structure/closet/secure_closet/freezer/kitchen/mining,
+/obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
 "gK" = (
@@ -1781,7 +1771,7 @@
 "gL" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
-/obj/structure/sign/warning/nosmoking/circle{
+/obj/structure/sign/warning/no_smoking/circle{
 	pixel_y = 32
 	},
 /turf/open/floor/iron/dark,
@@ -2150,20 +2140,9 @@
 "id" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Power Storage"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/away/general,
-/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden{
@@ -2563,7 +2542,7 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/hotel/pool)
 "jZ" = (
-/obj/structure/sign/warning/nosmoking{
+/obj/structure/sign/warning/no_smoking{
 	pixel_y = 32
 	},
 /turf/open/floor/iron,
@@ -2903,20 +2882,9 @@
 "mx" = (
 /obj/machinery/door/airlock{
 	name = "Custodial Closet"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/away/general,
-/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden{
 	dir = 4
@@ -2974,18 +2942,8 @@
 "mQ" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Hotel Staff Room"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/away/general,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/hotel/workroom)
@@ -3336,7 +3294,7 @@
 "zf" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable/yellow,
-/obj/structure/sign/warning/electricshock{
+/obj/structure/sign/warning/electric_shock{
 	pixel_y = -32
 	},
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
@@ -3779,20 +3737,9 @@
 "Pc" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Power Storage"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/away/general,
-/obj/effect/mapping_helpers/airlock/access/all/away/maintenance,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/hotel/secondary_solars)

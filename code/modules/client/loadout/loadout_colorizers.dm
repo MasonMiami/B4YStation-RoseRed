@@ -5,7 +5,7 @@
 /datum/gear/colorizer
 	subtype_path = /datum/gear/colorizer
 	sort_category = "Colorizers"
-	cost = 0
+	cost = 20000
 
 /datum/gear/colorizer/capcloakroyal
 	display_name = "Captain's Cloak Colorizer (Royal)"
@@ -26,16 +26,16 @@
 	display_name = "Ian Colorizer (Death Squad)"
 	path = /obj/item/colorizer/iandeathsquad
 	allowed_roles = list(JOB_NAME_HEADOFPERSONNEL)
-	cost = 0
+	cost = 20000
 
 /datum/gear/colorizer/militarycap
 	display_name = "Captain's Clothes Colouriser (Military)"
 	path = /obj/item/colorizer/captain_military_uniform
 	allowed_roles = list(JOB_NAME_CAPTAIN)
-	cost = 0
+	cost = 10000
 
 /datum/gear/colorizer/pdatransparent
 	display_name = "Transparent PDA Colorizer"
 	path = /obj/item/colorizer/pdatransparent
-	cost = 0
+	cost = 20000
 

@@ -455,7 +455,7 @@
 /turf/closed/wall/mineral/plastitanium/explosive,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "dQ" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/testlab)
 "dV" = (
@@ -714,7 +714,7 @@
 	},
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
-/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/o_minus,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/directional/west,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
@@ -752,7 +752,7 @@
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "fx" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "fy" = (
@@ -1058,7 +1058,7 @@
 /turf/open/floor/iron,
 /area/ruin/unpowered/syndicate_lava_base/main)
 "iq" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/main)
 "ir" = (
@@ -1126,18 +1126,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical{
 	name = "Chemistry Lab"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/turf_decal/stripes/closeup,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -1188,17 +1178,7 @@
 "jn" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-<<<<<<< HEAD
-<<<<<<< HEAD
 /obj/structure/cable/yellow,
-=======
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-=======
-/obj/structure/cable/yellow,
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/bar)
 "ju" = (
@@ -1347,7 +1327,7 @@
 	},
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable/yellow,
-/obj/structure/sign/warning/electricshock{
+/obj/structure/sign/warning/electric_shock{
 	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -1496,7 +1476,7 @@
 /turf/open/floor/circuit/green,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
 "mN" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
 "mP" = (
@@ -1645,7 +1625,7 @@
 /turf/open/floor/engine/vacuum,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
 "oF" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/arrivals)
 "oG" = (
@@ -3093,18 +3073,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch{
 	name = "Experimentation Lab"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /obj/effect/turf_decal/stripes/closeup,
@@ -5062,18 +5032,8 @@
 "Zy" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Telecommunications"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /obj/effect/turf_decal/stripes/closeup{

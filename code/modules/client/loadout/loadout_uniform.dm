@@ -4,7 +4,7 @@
 	slot = ITEM_SLOT_ICLOTHING
 	sort_category = "Uniforms and Casual Dress"
 	species_blacklist = list("plasmaman") //Envirosuit moment
-	cost = 0
+	cost = 1000
 //STANDARD UNIFORM COLORS
 
 /datum/gear/uniform/color
@@ -161,7 +161,7 @@
 
 /datum/gear/uniform/skirt
 	subtype_path = /datum/gear/uniform/skirt
-	cost = 0
+	cost = 2500
 
 /datum/gear/uniform/skirt/blue
 	display_name = "skirt, blue"
@@ -195,7 +195,7 @@
 
 /datum/gear/uniform/suit
 	subtype_path = /datum/gear/uniform/suit
-	cost = 0
+	cost = 2500
 
 /datum/gear/uniform/suit/suit_jacket
 	subtype_path = /datum/gear/uniform/suit/suit_jacket
@@ -260,17 +260,17 @@
 
 /datum/gear/uniform/misc
 	subtype_path = /datum/gear/uniform/misc
-	cost = 0
+	cost = 5000
 
 /datum/gear/uniform/misc/jabroni
 	display_name = "jabroni leathers"
 	path = /obj/item/clothing/under/costume/jabroni
-	cost = 0
+	cost = 20000
 
 /datum/gear/uniform/misc/geisha
 	display_name = "geisha suit"
 	path = /obj/item/clothing/under/costume/geisha
-	cost = 0
+	cost = 20000
 
 /datum/gear/uniform/misc/soviet
 	display_name = "soviet uniform"
@@ -287,13 +287,13 @@
 /datum/gear/uniform/misc/swagoutfit
 	display_name = "swag outfit"
 	path = /obj/item/clothing/under/costume/swagoutfit
-	cost = 0
+	cost = 69000
 
 //RANK SUBTYPE
 
 /datum/gear/uniform/rank
 	subtype_path = /datum/gear/uniform/rank
-	cost = 0
+	cost = 2500
 
 //ASSISTANTS FORMALS
 
@@ -389,4 +389,4 @@
 /datum/gear/uniform/rank/security/blueshift
 	display_name = "security jumpsuit, blue shirt and tie"
 	path = /obj/item/clothing/under/rank/security/officer/blueshirt
-	cost = 0
+	cost = 7500

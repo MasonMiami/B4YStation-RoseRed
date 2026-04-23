@@ -104,7 +104,7 @@
 /turf/open/floor/iron,
 /area/ruin/unpowered)
 "mv" = (
-/obj/structure/sign/warning/electricshock{
+/obj/structure/sign/warning/electric_shock{
 	pixel_y = 32
 	},
 /obj/machinery/hydroponics/soil,
@@ -130,18 +130,8 @@
 "pO" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Long-Term Cell 1"
-<<<<<<< HEAD
-=======
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
-<<<<<<< HEAD
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
->>>>>>> 801c79f03e7 ([MDB IGNORE] Actually uses access helpers (#14269))
-	},
-/obj/effect/mapping_helpers/airlock/access/all/security/brig,
-=======
->>>>>>> 367709c9418 ([MDB IGNORE] Smartwires, again (#14275))
 /obj/structure/cable/yellow,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1

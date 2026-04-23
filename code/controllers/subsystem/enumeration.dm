@@ -3,7 +3,7 @@
  * enumerations that involve tick checking with no risk of freezing the MC
  * as a result of TICK_CHECK waking up before the MC can wake up.
  *
- * @MasonMiami
+ * @PowerfulBacon
  * */
 SUBSYSTEM_DEF(enumeration)
 	name = "Enumeration"

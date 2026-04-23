@@ -2,7 +2,7 @@
 	subtype_path = /datum/gear/suit
 	slot = ITEM_SLOT_OCLOTHING
 	sort_category = "External Wear"
-	cost = 0
+	cost = 2500
 
 //ALT ARMOR, MEDICAL VESTS, + LABCOATS
 
@@ -27,17 +27,17 @@
 //WINTER COATS
 /datum/gear/suit/wintercoat
 	subtype_path = /datum/gear/suit/wintercoat
-	cost = 0
+	cost = 5000
 
 /datum/gear/suit/wintercoat/grey
 	display_name = "winter coat"
 	path = /obj/item/clothing/suit/hooded/wintercoat
-	cost = 0
+	cost = 2500
 
 /datum/gear/suit/wintercoat/white
 	display_name = "white winter coat"
 	path = /obj/item/clothing/suit/hooded/wintercoat/white
-	cost = 0
+	cost = 2500
 
 /datum/gear/suit/wintercoat/captain
 	display_name = "captain's winter coat"
@@ -93,12 +93,12 @@
 
 /datum/gear/suit/oldwintercoat
 	subtype_path = /datum/gear/suit/oldwintercoat
-	cost = 0
+	cost = 6000
 
 /datum/gear/suit/oldwintercoat/grey
 	display_name = "nostalgic winter coat"
 	path = /obj/item/clothing/suit/hooded/wintercoat/old
-	cost = 0
+	cost = 3000
 
 /datum/gear/suit/oldwintercoat/security
 	display_name = "nostalgic security winter coat"
@@ -134,7 +134,7 @@
 
 /datum/gear/suit/jacket
 	subtype_path = /datum/gear/suit/jacket
-	cost = 0
+	cost = 2500
 
 /datum/gear/suit/jacket/bomber
 	display_name = "bomber jacket"
@@ -151,7 +151,7 @@
 /datum/gear/suit/jacket/leather/overcoat
 	display_name = "leather overcoat"
 	path = /obj/item/clothing/suit/jacket/leather/overcoat
-	cost = 0
+	cost = 5000
 
 /datum/gear/suit/jacket/miljacket
 	display_name = "military jacket"
@@ -168,25 +168,25 @@
 /datum/gear/suit/jacket/letterman_nanotrasen
 	display_name = "letterman jacket, Nanotrasen blue"
 	path = /obj/item/clothing/suit/jacket/letterman_nanotrasen
-	cost = 0
+	cost = 5000
 
 /datum/gear/suit/jacket/letterman_syndie
 	display_name = "letterman jacket, Syndicate red"
 	path = /obj/item/clothing/suit/jacket/letterman_syndie
-	cost = 0
+	cost = 8000
 
 /datum/gear/suit/jacket/gothic
 	display_name = "gothic coat"
 	path = /obj/item/clothing/suit/costume/gothcoat
 	description = "Perfect for those who want stalk in a corner of a bar."
-	cost = 0
+	cost = 8000
 
 /datum/gear/suit/jacket/joker
 	display_name = "comedian's coat"
 	path = /obj/item/clothing/suit/costume/joker
 	description = "You get what you deserve."
 	allowed_roles = list(JOB_NAME_CLOWN)
-	cost = 0
+	cost = 8000
 
 /datum/gear/suit/jacket/lawyer
 	display_name = "blue suit jacket"
@@ -207,7 +207,7 @@
 
 /datum/gear/suit/poncho
 	subtype_path = /datum/gear/suit/poncho
-	cost = 0
+	cost = 2000
 
 /datum/gear/suit/poncho/classic
 	display_name = "poncho, classic"
@@ -224,7 +224,7 @@
 //ROBES
 /datum/gear/suit/robe
 	subtype_path = /datum/gear/suit/robe
-	cost = 0
+	cost = 5000
 
 /datum/gear/suit/robe/blackbishop
 	display_name = "black bishop's robes"
@@ -234,7 +234,7 @@
 //HOODIES
 /datum/gear/suit/hoodie
 	subtype_path = /datum/gear/suit/hoodie
-	cost = 0
+	cost = 2000
 
 /datum/gear/suit/hoodie/white
 	display_name = "white hoodie"

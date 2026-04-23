@@ -85,10 +85,6 @@ jobs:
       - name: Run OpenDream
         if: steps.linter-setup.conclusion == 'success' && !cancelled()
         run: ./DMCompiler_linux-x64/DMCompiler beestation.dme --suppress-unimplemented --define=CIBUILDING --version=515.1642 | bash tools/ci/annotate_od.sh
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9c36e4da08f (Dont run maplints if there are no map edits (#14307))
       - name: Check for Map & Maplint File Edits
         id: map-filter
         uses: dorny/paths-filter@v4
@@ -98,17 +94,8 @@ jobs:
               - '**.dmm'
               - 'tools/maplint/**'
               - 'tools/mapmerge2/**'
-<<<<<<< HEAD
       - name: Run Map Checks
         if: steps.linter-setup.conclusion == 'success' && !cancelled() && steps.map-filter.outputs.run_maps == 'true'
-=======
-      - name: Run Map Checks
-        if: steps.linter-setup.conclusion == 'success' && !cancelled()
->>>>>>> b5351c20950 (CI improvements (#13857))
-=======
-      - name: Run Map Checks
-        if: steps.linter-setup.conclusion == 'success' && !cancelled() && steps.map-filter.outputs.run_maps == 'true'
->>>>>>> 9c36e4da08f (Dont run maplints if there are no map edits (#14307))
         run: |
           tools/bootstrap/python -m mapmerge2.dmm_test
           tools/bootstrap/python -m tools.maplint.source

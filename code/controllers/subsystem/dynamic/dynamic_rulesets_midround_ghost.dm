@@ -282,19 +282,9 @@
 	return /mob/living/carbon/alien/larva
 
 /datum/dynamic_ruleset/midround/ghost/xenomorph_infestation/generate_ruleset_body(mob/dead/observer/chosen_mob)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	var/mob/living/carbon/alien/larva/new_xeno = new()
 	new_xeno.move_into_vent(pick_n_take(spawn_locations))
 
-=======
-	var/mob/living/carbon/alien/larva/new_xeno = new(pick_n_take(spawn_locations))
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
-=======
-	var/mob/living/carbon/alien/larva/new_xeno = new()
-	new_xeno.move_into_vent(pick_n_take(spawn_locations))
-
->>>>>>> 5bca58d39a9 (Audits polls (#14175))
 	new_xeno.key = chosen_mob.key
 
 	return new_xeno
@@ -335,11 +325,7 @@
 
 /datum/dynamic_ruleset/midround/ghost/space_dragon/generate_ruleset_body(mob/dead/observer/chosen_mob)
 	var/mob/living/simple_animal/hostile/space_dragon/dragon_body = new(pick(spawn_locations))
-<<<<<<< HEAD
 	dragon_body.key = chosen_mob.key
-=======
-	dragon_body.key = chosen_mob
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 
 	playsound(dragon_body, 'sound/magic/ethereal_exit.ogg', 50, TRUE, -1)
 	priority_announce("It appears a lifeform with magical traces is approaching [station_name()], please stand-by.", "Lifesign Alert")
@@ -519,19 +505,9 @@
 	return /mob/living/simple_animal/hostile/poison/giant_spider/broodmother
 
 /datum/dynamic_ruleset/midround/ghost/spiders/generate_ruleset_body(mob/dead/observer/chosen_mob)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	var/mob/living/simple_animal/hostile/poison/giant_spider/broodmother/broodmother_body = new()
 	broodmother_body.move_into_vent(pick_n_take(spawn_locations))
 
-=======
-	var/mob/living/simple_animal/hostile/poison/giant_spider/broodmother/broodmother_body = new(pick(spawn_locations))
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
-=======
-	var/mob/living/simple_animal/hostile/poison/giant_spider/broodmother/broodmother_body = new()
-	broodmother_body.move_into_vent(pick_n_take(spawn_locations))
-
->>>>>>> 5bca58d39a9 (Audits polls (#14175))
 	broodmother_body.fed += 3
 	broodmother_body.lay_eggs.update_buttons()
 

@@ -260,12 +260,12 @@
 	config_entry_value = "https://beestation13.com/rules"
 
 /datum/config_entry/string/githuburl
-	config_entry_value = "https://github.com/TheShopOfLongmont/B4YStation-RoseRed"
+	config_entry_value = "https://github.com/BeeStation/BeeStation-Hornet"
 
 /datum/config_entry/string/issue_label
 
 /datum/config_entry/string/donateurl
-	config_entry_value = "https://www.garysinisefoundation.org/donate"
+	config_entry_value = "https://www.patreon.com/user?u=10639001"
 
 /datum/config_entry/string/discordurl
 	config_entry_value = "https://discord.gg/zUe34rs"

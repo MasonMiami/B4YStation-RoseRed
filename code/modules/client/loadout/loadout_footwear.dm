@@ -2,7 +2,7 @@
 	subtype_path = /datum/gear/footwear
 	slot = ITEM_SLOT_FEET
 	sort_category = "Footwear"
-	cost = 0
+	cost = 1000
 
 //fancy shoes and stuff
 
@@ -17,23 +17,23 @@
 /datum/gear/footwear/jackboots
 	display_name = "jackboots"
 	path = /obj/item/clothing/shoes/jackboots_replica
-	cost = 0
+	cost = 4000
 
 /datum/gear/footwear/winterboots
 	display_name = "winter boots"
 	path = /obj/item/clothing/shoes/winterboots
-	cost = 0
+	cost = 4000
 
 /datum/gear/footwear/swagshoes
 	display_name = "swag shoes"
 	path = /obj/item/clothing/shoes/swagshoes
-	cost = 0
+	cost = 31000
 
 //Standard shoes
 
 /datum/gear/footwear/color
 	subtype_path = /datum/gear/footwear/color
-	cost = 0
+	cost = 500
 
 /datum/gear/footwear/color/black
 	display_name = "black shoes"

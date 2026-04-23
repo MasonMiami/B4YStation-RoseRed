@@ -188,14 +188,8 @@
 #define COMSIG_MOB_PRE_EAT "mob_pre_eat"
 	///cancel eating attempt
 	#define COMSIG_MOB_CANCEL_EAT (1<<0)
-<<<<<<< HEAD
-<<<<<<< HEAD
 /// From mob/living/proc/on_fall
 #define COMSIG_LIVING_THUD "living_thud"
-=======
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
-=======
->>>>>>> 785077bcdb7 (The Cat's Meow: Basic Cats, Basic Pet consolidation, adds callouts and cult pet functionality (#14140))
 
 /// From /datum/element/basic_eating/finish_eating()
 #define COMSIG_MOB_ATE "mob_ate"

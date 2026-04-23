@@ -32,20 +32,11 @@
 	if(!ispath(base_turf, /turf/open/space)) // We ain't the bottom brother
 		return
 	are_we_lit = TRUE
-<<<<<<< HEAD
 	add_overlay(GLOB.starlight_overlay)
 
 /turf/open/floor/glass/get_lumcount(minlum = 0, maxlum = 1)
 	if(are_we_lit)
 		return 1
-=======
-
-	add_overlay(GLOB.starlight_overlay)
-
-/turf/open/floor/glass/get_lumcount(minlum = 0, maxlum = 1)
-	if(are_we_lit)
-		return TRUE
->>>>>>> 81d2e86ec2f (Assorted fixes (#14155))
 	return ..()
 
 /turf/open/floor/glass/make_plating()
