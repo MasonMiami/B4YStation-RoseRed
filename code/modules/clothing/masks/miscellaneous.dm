@@ -8,6 +8,10 @@
 	gas_transfer_coefficient = 0.9
 	equip_delay_other = 20
 
+/obj/item/clothing/mask/muzzle/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/muffles_speech)
+
 /obj/item/clothing/mask/muzzle/attack_paw(mob/user)
 	if(iscarbon(user))
 		var/mob/living/carbon/C = user
@@ -16,31 +20,12 @@
 			return
 	..()
 
-/obj/item/clothing/mask/surgical
-	name = "sterile mask"
-	desc = "A sterile mask designed to help prevent the spread of diseases."
-	icon_state = "sterile"
-	inhand_icon_state = "sterile"
-	w_class = WEIGHT_CLASS_TINY
-	flags_inv = HIDEFACE|HIDESNOUT
-	flags_cover = MASKCOVERSMOUTH
-	visor_flags_inv = HIDEFACE|HIDESNOUT
-	visor_flags_cover = MASKCOVERSMOUTH
-	gas_transfer_coefficient = 0.9
-	armor_type = /datum/armor/mask_surgical
-	actions_types = list(/datum/action/item_action/adjust)
-
-
-/datum/armor/mask_surgical
-	bio = 100
-
-/obj/item/clothing/mask/surgical/attack_self(mob/user)
-	adjustmask(user)
-
 /obj/item/clothing/mask/fakemoustache
 	name = "fake moustache"
 	desc = "Warning: moustache is fake."
 	icon_state = "fake-moustache"
+	alternate_worn_layer = ABOVE_BODY_FRONT_HEAD_LAYER
+	w_class = WEIGHT_CLASS_TINY
 	flags_inv = HIDEFACE
 
 /obj/item/clothing/mask/fakemoustache/italian
